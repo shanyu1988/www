@@ -30,6 +30,6 @@ foreach ($data as $item) {
   file_put_contents('data.json', $json);
 
   // 跳转回列表页
-  header('Location: list.php');
+  header('Location: index.php');
 }
 

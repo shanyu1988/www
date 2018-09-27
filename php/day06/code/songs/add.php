@@ -113,7 +113,7 @@ function add () {
   file_put_contents('data.json', $new_json);
 
   // 5. 跳转
-  // header('Location: list.php');
+  // header('Location: index.php');
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

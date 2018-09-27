@@ -110,7 +110,7 @@ function receive_form () {
   file_put_contents('data.json', json_encode($songs));
 
   // 3. 响应
-  header('Location: /songs/list.php');
+  header('Location: /songs/index.php');
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

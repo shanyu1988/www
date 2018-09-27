@@ -33,4 +33,4 @@ foreach ($songs as $item) {
   }
 }
 // 跳转回去
-header('Location: /songs/list.php');
+header('Location: /songs/index.php');

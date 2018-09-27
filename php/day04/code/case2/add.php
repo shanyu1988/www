@@ -126,7 +126,7 @@ function add_music () {
   file_put_contents('storage.json', $json);
 
   // 跳转回列表页
-  header('Location: list.php');
+  header('Location: index.php');
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
