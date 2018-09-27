@@ -1,14 +1,14 @@
 <?php
 //1.数据库取出数据
-$conn=mysqli_connect('47.96.77.249','root','Shanyu_1988','my');
+$conn=@mysqli_connect('47.96.77.249','root','Shanyu_1988','my');
 if(!$conn){
     exit('<h1>连接数据库失败</h1>');
 }
-$query=mysqli_query($conn,'select * from users;');
+$query=@mysqli_query($conn,'select * from users;');
 if(!$query){
     exit('<h1>查询数据失败</h1>');
 }
-
+$images_url='http://localhost/php/test/test07/SQLTest';
 //2.遍历数据，渲染页面
 ?>
 <!doctype html>
@@ -52,7 +52,7 @@ if(!$query){
         <?php while($item=mysqli_fetch_assoc($query)):?>
             <tr>
                 <th scope="row"><?php echo $item['id']; ?></th>
-                <td><img src="<?php echo $item['image'];?>" class="rounded" alt="<?php echo $item['name'];?>"></td>
+                <td><img src="<?php echo $images_url.$item['image'];?>" class="rounded" alt="<?php echo $item['name'];?>"></td>
                 <td><?php echo $item['name'];?></td>
                 <td><?php echo $item['gender']==0?'女':'男';?></td>
                 <td><?php echo $item['birthday'];?></td>
