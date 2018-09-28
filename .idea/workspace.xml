@@ -2,11 +2,120 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f64a3e5e-fb63-4679-a822-93174cd65366" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/ajax/code1/01-ajax-basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/02-ajax-basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/03-ready-state.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/04-onload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/05-ajax-http.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/06-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/07-ajax-get.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/08-ajax-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/09-ajax-async-vs-sync.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/10-ajax-sync.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/11-ajax-xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/12-ajax-table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/ext-console.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/1-13960-radar10.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/analytics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/analytics.js(1).下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/analytics.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/ga.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/index.build.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/jquery-1.9.1.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/pre_tumblelog.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/px.js(1).下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/px.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/rapid-3.42.2.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/rapidworker-1.2.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/saved_resource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/showads.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblelog_post_message_queue.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mv04ebj65h1slgvbno1_500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mv053nepck1slgvbno1_500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mv3qtdY2421slgvbno1_500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mvhu7knltV1slgvbno1_500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mvi11zP7G91slgvbno1_500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mvjthy3HZF1slgvbno1_500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mvrffhTHI01slgvbno1_500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mwaab4OkGK1slgvbno1_500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mxhtp1K9dQ1slgvbno1_500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mzu6d0FEAq1slgvbno1_500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_n1xppb16nW1slgvbno1_500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_n1xppb16nW1slgvbno2_500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_n6cr3gsfwQ1slgvbno1_500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_n7c7tv7gkg1slgvbno1_500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_nkm1e73ygX1slgvbno1_540.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_nkm1e73ygX1slgvbno2_540.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_nt0d8zu9gi1slgvbno1_540.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_static_goggle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/cd_catalog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/time.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code1/xml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/01-ajax-rev.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/02-ajax-res-type.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/03-ajax-dynamic-table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/04-ajax-fn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/05-ajax-fn1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/05-func.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/06-callback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/07-jquery-ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/08-jquery-ajax-callback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/09-jquery-get-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/10-jquery-ajax-event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/11-cross-domain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/12-cross-origin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/13-jsonp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/14-jquery-jsonp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/15-cors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/callback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/json.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/jsonp/client.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/jsonp/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/load/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/load/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/load/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/load/orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/nprogress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/nprogress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/template-web.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/time.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/time2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/演讲/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/演讲/js对象的继承结构/对象的继承结构.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/code2/演讲/js对象的继承结构/对象的继承结构.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/test01/01-ajax.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/day07/code/04-getsession.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/day07/code/04-getsession.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/description" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/applypatch-msg.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/commit-msg.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/fsmonitor-watchman.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/post-update.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/pre-applypatch.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/pre-commit.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/pre-push.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/pre-rebase.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/pre-receive.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/prepare-commit-msg.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/update.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/exclude" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/day01/03-echo-print.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/day01/03-echo-print.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,71 +145,74 @@
     </expand>
     <select />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="625800060">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="2" />
+          <entry key="js" value="1" />
+          <entry key="php" value="2" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PHP" value="2" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="66" />
+          <entry key="php" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="66" />
+          <entry key="PHP" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.php.new.class" />
+      <usages-collector id="statistics.php.new.test" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.php.composer.actions" />
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="www2" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/test/test07/SQLTest/index.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ajax/test01/01-ajax.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/test/test07/SQLTest/edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1805">
-              <caret line="95" selection-start-line="95" selection-end-line="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="04-getsession.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/day07/code/04-getsession.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="03-session.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/day07/code/03-session.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02-getcookie.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/day07/code/02-getcookie.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="01-setcookie.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/day07/code/01-setcookie.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/day04/code/songs/add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="51" selection-start-line="51" selection-end-line="51" selection-end-column="34" />
+            <state relative-caret-position="171">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -119,6 +231,8 @@
         <option value="$PROJECT_DIR$/php/test/test07/SQLTest/edit.php" />
         <option value="$PROJECT_DIR$/php/day07/code/03-session.php" />
         <option value="$PROJECT_DIR$/php/day07/code/04-getsession.php" />
+        <option value="$PROJECT_DIR$/php/day07/code/02-getcookie.php" />
+        <option value="$PROJECT_DIR$/ajax/test01/01-ajax.html" />
       </list>
     </option>
   </component>
@@ -127,9 +241,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
   </component>
   <component name="PhpServers">
     <servers />
@@ -152,23 +263,23 @@
         <subPane>
           <expand>
             <path>
-              <item name="www2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www2" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="www2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www2" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="php" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="www2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www2" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="php" type="462c0819:PsiDirectoryNode" />
               <item name="day07" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="www2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www2" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="php" type="462c0819:PsiDirectoryNode" />
               <item name="day07" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
@@ -181,6 +292,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -191,15 +303,17 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\www2\php\test\test07\SQLTest" />
-      <recent name="D:\www2\php\test\test07\SQLTest\img" />
-      <recent name="D:\www2\php\test\test07" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\www2\php\test\test07\SQLTest" />
       <recent name="D:\www2\php" />
       <recent name="D:\www2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\www\ajax\code2" />
+      <recent name="G:\www\ajax" />
+      <recent name="G:\www\ajax\code1" />
+      <recent name="D:\www2\php\test\test07\SQLTest" />
+      <recent name="D:\www2\php\test\test07\SQLTest\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -229,6 +343,7 @@
       <workItem from="1538021986965" duration="17646000" />
       <workItem from="1538051130486" duration="248000" />
       <workItem from="1538103422905" duration="3417000" />
+      <workItem from="1538140842785" duration="1914000" />
     </task>
     <task id="LOCAL-00001" summary="实验2">
       <created>1537861165736</created>
@@ -269,7 +384,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38365000" />
+    <option name="totallyTimeSpent" value="40279000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,32 +396,57 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.3293348" />
-      <window_info anchor="bottom" id="调试" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3293348" />
-      <window_info anchor="bottom" id="Database Changes" order="7" weight="0.3293348" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293348" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293348" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.1716418" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.12473348" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.17289348" />
       <window_info id="Structure" order="1" sideWeight="0.500813" side_tool="true" weight="0.25266525" />
       <window_info id="Favorites" order="2" sideWeight="0.500813" side_tool="true" weight="0.25266525" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286495" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.32995737" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917318" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3293348" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.3293348" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3293348" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3293348" />
+      <window_info anchor="bottom" id="调试" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3293348" />
-      <window_info anchor="bottom" id="Messages" order="8" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" weight="0.12473348" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.17289348" />
+      <window_info id="Structure" order="1" sideWeight="0.500813" side_tool="true" weight="0.25266525" />
+      <window_info id="Favorites" order="2" sideWeight="0.500813" side_tool="true" weight="0.25266525" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286495" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917318" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3293348" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.3293348" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3293348" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3293348" />
+      <window_info anchor="bottom" id="调试" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" weight="0.12473348" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -348,99 +488,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="SQL数据库  增删改查" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php/test/test07/SQLTest/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/test/test07/SQLTest/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1805">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/day07/code/04-getsession.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/day07/code/03-session.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/day07/code/02-getcookie.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/day04/code/songs/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" selection-start-line="51" selection-end-line="51" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/day07/code/01-setcookie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/test/test07/SQLTest/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/test/test07/SQLTest/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1805">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/day07/code/04-getsession.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/day07/code/03-session.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/day07/code/02-getcookie.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/day04/code/songs/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/day07/code/01-setcookie.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/我是实验.txt" />
-    <entry file="file://$PROJECT_DIR$/php/day06/code/01-mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/test/test06/SQL.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/我是实验.txt" />
-    <entry file="file://$PROJECT_DIR$/php/test/test06/SQL.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HEAD">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -513,13 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/day04/code/songs/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" selection-start-line="51" selection-end-line="51" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/day07/edit.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -544,22 +584,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/test/test07/SQLTest/index.php">
+    <entry file="file://$PROJECT_DIR$/php/day07/code/03-session.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/test/test07/SQLTest/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1805">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/day07/code/02-getcookie.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/php/day07/code/01-setcookie.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -568,17 +598,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/day07/code/03-session.php">
+    <entry file="file://$PROJECT_DIR$/php/day04/code/songs/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="969">
+          <caret line="51" selection-start-line="51" selection-end-line="51" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code1/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code1/posts/cd_catalog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code2/load/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/day07/code/04-getsession.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="8" />
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/test/test07/SQLTest/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1193">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/test/test07/SQLTest/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code2/演讲/js对象的继承结构/对象的继承结构.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/day07/code/02-getcookie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/test01/01-ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
