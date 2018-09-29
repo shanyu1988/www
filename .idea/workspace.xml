@@ -2,118 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f64a3e5e-fb63-4679-a822-93174cd65366" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/ajax/code1/01-ajax-basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/02-ajax-basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/03-ready-state.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/04-onload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/05-ajax-http.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/06-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/07-ajax-get.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/08-ajax-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/09-ajax-async-vs-sync.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/10-ajax-sync.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/11-ajax-xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/12-ajax-table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/ext-console.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/1-13960-radar10.min.js.下载" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/analytics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/analytics.js(1).下载" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/analytics.js.下载" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/ga.js.下载" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/index.build.js.下载" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/jquery-1.9.1.min.js.下载" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/pre_tumblelog.js.下载" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/px.js(1).下载" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/px.js.下载" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/rapid-3.42.2.js.下载" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/rapidworker-1.2.js.下载" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/saved_resource.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/showads.js.下载" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblelog_post_message_queue.js.下载" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mv04ebj65h1slgvbno1_500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mv053nepck1slgvbno1_500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mv3qtdY2421slgvbno1_500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mvhu7knltV1slgvbno1_500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mvi11zP7G91slgvbno1_500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mvjthy3HZF1slgvbno1_500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mvrffhTHI01slgvbno1_500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mwaab4OkGK1slgvbno1_500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mxhtp1K9dQ1slgvbno1_500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_mzu6d0FEAq1slgvbno1_500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_n1xppb16nW1slgvbno1_500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_n1xppb16nW1slgvbno2_500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_n6cr3gsfwQ1slgvbno1_500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_n7c7tv7gkg1slgvbno1_500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_nkm1e73ygX1slgvbno1_540.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_nkm1e73ygX1slgvbno2_540.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_nt0d8zu9gi1slgvbno1_540.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/Google Suggest_files/tumblr_static_goggle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/posts/cd_catalog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/time.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code1/xml.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/01-ajax-rev.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/02-ajax-res-type.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/03-ajax-dynamic-table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/04-ajax-fn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/05-ajax-fn1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/05-func.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/06-callback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/07-jquery-ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/08-jquery-ajax-callback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/09-jquery-get-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/10-jquery-ajax-event.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/11-cross-domain.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/12-cross-origin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/13-jsonp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/14-jquery-jsonp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/15-cors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/callback.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/cors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/json.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/jsonp/client.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/jsonp/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/load/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/load/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/load/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/load/orders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/nprogress.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/nprogress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/template-web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/time.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/time2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/演讲/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/演讲/js对象的继承结构/对象的继承结构.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/code2/演讲/js对象的继承结构/对象的继承结构.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/test01/01-ajax.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/test01/users.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HEAD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/description" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/applypatch-msg.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/commit-msg.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/fsmonitor-watchman.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/post-update.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/pre-applypatch.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/pre-commit.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/pre-push.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/pre-rebase.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/pre-receive.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/prepare-commit-msg.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/update.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/exclude" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/day01/03-echo-print.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/day01/03-echo-print.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/code1/02-ajax-basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/code1/02-ajax-basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/code1/03-ready-state.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/code1/03-ready-state.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/code1/05-ajax-http.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/code1/05-ajax-http.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/test01/01-ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/test01/01-ajax.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,17 +84,77 @@
       <usages-collector id="statistics.php.composer.command.options" />
       <usages-collector id="statistics.php.composer.actions" />
     </session>
+    <session id="-1478855814">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="1243" />
+          <entry key="php" value="289" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1243" />
+          <entry key="PHP" value="289" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="3" />
+          <entry key="php" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="3" />
+          <entry key="PHP" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.php.new.class" />
+      <usages-collector id="statistics.php.new.test" />
+      <usages-collector id="statistics.php.composer.actions" />
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="www2" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajax/test01/01-ajax.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="342">
+              <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ajax/test01/users.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/code1/07-ajax-get.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="34" column="34" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -213,6 +167,11 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Search Everywhere</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -232,6 +191,11 @@
         <option value="$PROJECT_DIR$/php/day07/code/03-session.php" />
         <option value="$PROJECT_DIR$/php/day07/code/04-getsession.php" />
         <option value="$PROJECT_DIR$/php/day07/code/02-getcookie.php" />
+        <option value="$PROJECT_DIR$/ajax/code1/03-ready-state.html" />
+        <option value="$PROJECT_DIR$/ajax/code1/05-ajax-http.html" />
+        <option value="$PROJECT_DIR$/ajax/code1/02-ajax-basic.html" />
+        <option value="$PROJECT_DIR$/ajax/test01/user.php" />
+        <option value="$PROJECT_DIR$/ajax/test01/users.php" />
         <option value="$PROJECT_DIR$/ajax/test01/01-ajax.html" />
       </list>
     </option>
@@ -259,40 +223,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="www2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="www2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www2" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="day07" type="462c0819:PsiDirectoryNode" />
+              <item name="www2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www2" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="code1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="day07" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="www2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www2" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="test01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="Switch&#9;ACTION&#9;Switcher&#10;switch book jdk&#9;null&#9;null&#10;switch&#9;null&#9;null&#10;Switch &#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -300,6 +264,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="C:/xampp/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
@@ -344,6 +309,11 @@
       <workItem from="1538051130486" duration="248000" />
       <workItem from="1538103422905" duration="3417000" />
       <workItem from="1538140842785" duration="1914000" />
+      <workItem from="1538183029474" duration="4494000" />
+      <workItem from="1538203297790" duration="436000" />
+      <workItem from="1538203821178" duration="36000" />
+      <workItem from="1538203907582" duration="192000" />
+      <workItem from="1538204276884" duration="7100000" />
     </task>
     <task id="LOCAL-00001" summary="实验2">
       <created>1537861165736</created>
@@ -384,7 +354,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40279000" />
+    <option name="totallyTimeSpent" value="52560000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,9 +366,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.17289348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.18123667" />
       <window_info id="Structure" order="1" sideWeight="0.500813" side_tool="true" weight="0.25266525" />
       <window_info id="Favorites" order="2" sideWeight="0.500813" side_tool="true" weight="0.25266525" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -412,7 +383,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3293348" />
       <window_info anchor="bottom" id="Database Console" order="9" weight="0.3293348" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3293348" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3293348" />
       <window_info anchor="bottom" id="调试" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" />
@@ -488,15 +459,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="SQL数据库  增删改查" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HEAD">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/description">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HEAD" />
+    <entry file="file://$PROJECT_DIR$/config" />
+    <entry file="file://$PROJECT_DIR$/description" />
     <entry file="file://$PROJECT_DIR$/php/test/test04/JSON/musicList.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -521,13 +486,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://ecc790e0-0deb-444c-81af-4f3e1b6b2826/schema/my/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://ecc790e0-0deb-444c-81af-4f3e1b6b2826/schema/my/table/users" />
     <entry file="file://$PROJECT_DIR$/php/test/test06/SQL.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -605,13 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/code1/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax/code1/posts/cd_catalog.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -657,10 +609,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code1/04-onload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code1/03-ready-state.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code1/05-ajax-http.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code1/06-form.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code1/08-ajax-post.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code1/09-ajax-async-vs-sync.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code1/10-ajax-sync.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code1/11-ajax-xml.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code1/12-ajax-table.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code1/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code1/ext-console.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code2/template-web.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="9400" selection-start-line="1" selection-start-column="9400" selection-end-line="1" selection-end-column="9400" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code1/02-ajax-basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code1/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" selection-start-line="10" selection-end-line="31" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code1/07-ajax-get.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ajax/test01/01-ajax.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="342">
+          <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/test01/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
         </state>
       </provider>
     </entry>
