@@ -5,9 +5,43 @@
     <title>Title</title>
 </head>
 <body>
+<ul id="lists">
+</ul>
 <script>
-    //XMLhttprequest
-//XMLHttpRequest
+    //TODO: 动态创建对象
+    var lists=document.getElementById('lists');
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET','users.php');
+    xhr.send();
+    //readystatechange
+    xhr.addEventListener('readystatechange', function () {
+
+        if (this.readyState !== 4) return;
+        console.log(1);
+        var data=JSON.parse(this.responseText);
+        console.log(data);
+        for(var i=0;i<data.length;i++){
+            var liElement=document.createElement('li');
+            liElement.innerText=data[i].name;
+            liElement.setAttribute('id',data[i].id);
+            lists.appendChild(liElement);
+            //TODO: 给对象绑定点击事件
+            liElement.addEventListener('click',function () {
+                var id=this.id;
+                var xhr1=new XMLHttpRequest();
+                xhr1.open('GET','users.php?id='+id);
+                xhr1.send(null);
+                xhr1.addEventListener('readystatechange',function () {
+                    console.log(1);
+                    if(this.readyState!==4) return;
+                    console.log(this.responseText);
+                })
+            })
+        }
+
+    });
+
+
 </script>
 </body>
 </html>
