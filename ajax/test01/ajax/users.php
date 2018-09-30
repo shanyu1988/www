@@ -35,3 +35,5 @@ foreach ($users as $item) {
     if ($item['id'] != $_GET['id'])continue;
     echo json_encode($item['age']);
 }
+//readyState
+//ext

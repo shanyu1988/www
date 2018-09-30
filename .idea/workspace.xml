@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f64a3e5e-fb63-4679-a822-93174cd65366" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/ajax/test01/users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/test01/rendering_data/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/test02/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/test02/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/test02/template-web.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/code1/02-ajax-basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/code1/02-ajax-basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/code1/03-ready-state.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/code1/03-ready-state.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/code1/05-ajax-http.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/code1/05-ajax-http.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/test01/01-ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/test01/01-ajax.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/test01/01-ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/test01/ajax/01-ajax.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/test01/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/test01/ajax/users.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,35 +88,40 @@
     <session id="-1478855814">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1243" />
-          <entry key="php" value="289" />
+          <entry key="html" value="1258" />
+          <entry key="js" value="4" />
+          <entry key="php" value="354" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1243" />
-          <entry key="PHP" value="289" />
+          <entry key="HTML" value="1258" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PHP" value="354" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="3" />
-          <entry key="php" value="4" />
+          <entry key="html" value="8" />
+          <entry key="js" value="4" />
+          <entry key="php" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
-          <entry key="PHP" value="4" />
+          <entry key="HTML" value="8" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PHP" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.rename.constructor" />
@@ -132,31 +138,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/test01/01-ajax.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ajax/test01/users.php">
+        <entry file="file://$PROJECT_DIR$/ajax/code2/load/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+            <state relative-caret-position="757">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/code1/07-ajax-get.html">
+        <entry file="file://$PROJECT_DIR$/ajax/code2/load/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="34" column="34" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="34" />
+            <state relative-caret-position="418">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/code2/load/orders.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -171,6 +173,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Search Everywhere</find>
+      <find>ajax</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -197,6 +200,10 @@
         <option value="$PROJECT_DIR$/ajax/test01/user.php" />
         <option value="$PROJECT_DIR$/ajax/test01/users.php" />
         <option value="$PROJECT_DIR$/ajax/test01/01-ajax.html" />
+        <option value="$PROJECT_DIR$/ajax/test01/rendering_data/test.php" />
+        <option value="$PROJECT_DIR$/ajax/test01/ajax/users.php" />
+        <option value="$PROJECT_DIR$/ajax/test02/demo.html" />
+        <option value="$PROJECT_DIR$/ajax/test02/jquery.js" />
       </list>
     </option>
   </component>
@@ -209,7 +216,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -223,7 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,7 +246,14 @@
               <item name="www2" type="b2602c69:ProjectViewProjectNode" />
               <item name="www2" type="462c0819:PsiDirectoryNode" />
               <item name="ajax" type="462c0819:PsiDirectoryNode" />
-              <item name="code1" type="462c0819:PsiDirectoryNode" />
+              <item name="code2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www2" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="code2" type="462c0819:PsiDirectoryNode" />
+              <item name="load" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="www2" type="b2602c69:ProjectViewProjectNode" />
@@ -248,10 +261,24 @@
               <item name="ajax" type="462c0819:PsiDirectoryNode" />
               <item name="test01" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="www2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www2" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="test01" type="462c0819:PsiDirectoryNode" />
+              <item name="rendering_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www2" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="test02" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,16 +296,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\www2\ajax\test01\ajax" />
       <recent name="D:\www2\php\test\test07\SQLTest" />
       <recent name="D:\www2\php" />
       <recent name="D:\www2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\www2\ajax\test02" />
+      <recent name="D:\www2\ajax\test01\rendering_data" />
       <recent name="G:\www\ajax\code2" />
       <recent name="G:\www\ajax" />
       <recent name="G:\www\ajax\code1" />
-      <recent name="D:\www2\php\test\test07\SQLTest" />
-      <recent name="D:\www2\php\test\test07\SQLTest\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,7 +341,9 @@
       <workItem from="1538203297790" duration="436000" />
       <workItem from="1538203821178" duration="36000" />
       <workItem from="1538203907582" duration="192000" />
-      <workItem from="1538204276884" duration="7100000" />
+      <workItem from="1538204276884" duration="7726000" />
+      <workItem from="1538272196399" duration="3629000" />
+      <workItem from="1538291639856" duration="5846000" />
     </task>
     <task id="LOCAL-00001" summary="实验2">
       <created>1537861165736</created>
@@ -354,7 +384,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52560000" />
+    <option name="totallyTimeSpent" value="62661000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,10 +396,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.18123667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.18496802" />
       <window_info id="Structure" order="1" sideWeight="0.500813" side_tool="true" weight="0.25266525" />
       <window_info id="Favorites" order="2" sideWeight="0.500813" side_tool="true" weight="0.25266525" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -383,7 +412,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3293348" />
       <window_info anchor="bottom" id="Database Console" order="9" weight="0.3293348" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3293348" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3293348" />
       <window_info anchor="bottom" id="调试" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" />
@@ -459,16 +488,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="SQL数据库  增删改查" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HEAD" />
-    <entry file="file://$PROJECT_DIR$/config" />
-    <entry file="file://$PROJECT_DIR$/description" />
-    <entry file="file://$PROJECT_DIR$/php/test/test04/JSON/musicList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="64" lean-forward="true" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ecc790e0-0deb-444c-81af-4f3e1b6b2826/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -568,13 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/code2/load/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -679,24 +691,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code1/test.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/test01/rendering_data/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ajax/code1/07-ajax-get.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="646">
           <caret line="34" column="34" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/test01/01-ajax.html">
+    <entry file="file://$PROJECT_DIR$/ajax/code2/07-jquery-ajax.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+        <state relative-caret-position="-173">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/test01/users.php">
+    <entry file="file://$PROJECT_DIR$/ajax/test02/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/test01/ajax/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/test01/ajax/01-ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/test02/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="6071" column="35" selection-start-line="6071" selection-start-column="35" selection-end-line="6071" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/test02/template-web.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code2/load/orders.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code2/load/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/code2/load/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
