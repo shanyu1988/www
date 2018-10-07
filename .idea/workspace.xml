@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f64a3e5e-fb63-4679-a822-93174cd65366" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/ajax/test02/request.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/test02/request.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f64a3e5e-fb63-4679-a822-93174cd65366" name="默认更改列表" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,13 +86,14 @@
     <session id="-1478855814">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -219,7 +216,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -233,7 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,48 +240,13 @@
             <path>
               <item name="www2" type="b2602c69:ProjectViewProjectNode" />
               <item name="www2" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www2" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-              <item name="code1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www2" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-              <item name="test01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www2" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-              <item name="test02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www2" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www2" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www2" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="test07" type="462c0819:PsiDirectoryNode" />
+              <item name="baixiu" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,7 +259,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="C:/xampp/php/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/baixiu" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
@@ -366,6 +327,7 @@
       <workItem from="1538291639856" duration="6927000" />
       <workItem from="1538363894066" duration="5808000" />
       <workItem from="1538626753113" duration="1805000" />
+      <workItem from="1538884067604" duration="454000" />
     </task>
     <task id="LOCAL-00001" summary="实验2">
       <created>1537861165736</created>
@@ -406,7 +368,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71355000" />
+    <option name="totallyTimeSpent" value="71809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -420,7 +382,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.18923241" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.1913646" />
       <window_info id="Structure" order="1" sideWeight="0.500813" side_tool="true" weight="0.25266525" />
       <window_info id="Favorites" order="2" sideWeight="0.500813" side_tool="true" weight="0.25266525" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -442,7 +404,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.32995737" />
-      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.12473348" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.12473348" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.17289348" />
