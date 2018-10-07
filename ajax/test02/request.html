@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function request(url,func) {
+            var funcName='JSONP_'+ Date.now() + Math.random().toString().substr(2);
+            window[funcName]=function (data){
+                func()
+            };
+            var script=document.createElement('script');
+            script.src=url+funcName;
+            document.body.appendChild(script);
+        }
+        var data=request('http://pgplayer.com:90/request.php?callback=');
+        console.log(data)
+
+
+        //
+
+    </script>
+</body>
+</html>
