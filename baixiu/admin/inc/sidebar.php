@@ -3,11 +3,14 @@ $page_name=isset($page_name)?$page_name:'';
 $page_crr = 0;
 if ($page_name === 'posts' || $page_name === 'post-add' || $page_name === 'categories') $page_crr = 1;
 if ($page_name === 'nav-menus' || $page_name === 'slides' || $page_name === 'settings') $page_crr = 2;
+
+require_once '../functions.php';
+$user_arr=baixiu_get_current_user();
 ?>
 <div class="aside">
     <div class="profile">
-        <img class="avatar" src="/static/uploads/avatar.jpg">
-        <h3 class="name">布头儿</h3>
+        <img class="avatar" src="<?php echo $user_arr['avatar'];?>">
+        <h3 class="name"><?php echo $user_arr['nickname'];?></h3>
     </div>
     <ul class="nav">
         <li<?php echo $page_name === 'index' ? ' class="active"' : '' ?>>
