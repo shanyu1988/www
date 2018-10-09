@@ -7,16 +7,19 @@
 /**
  * 数据库主机
  */
-define('DB_HOST', '47.100.255.172');
+define('XIU_DB_HOST', '47.100.255.172');
 /**
  * 数据库用户名
  */
-define('DB_USER', 'root');
+define('XIU_DB_USER', 'root');
 /**
  * 数据库密码
  */
-define('DB_PASS', 'shanyu1988');
+define('XIU_DB_PASS', 'shanyu1988');
 /**
  * 数据库名字
  */
-define('DB_NAME', 'baixiu');
+define('XIU_DB_NAME', 'baixiu');
+
+//D:\www2\baixiu
+define('ROOT_DIR', dirname(__FILE__));
