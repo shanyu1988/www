@@ -1,3 +1,10 @@
+<?php
+require_once '../functions.php';
+baixiu_get_current_user();
+$wen_zhang_num=xiu_fetch_one("select count(1) as num from posts;")['num'];
+$fen_lei_num=xiu_fetch_one("select count(1) as num from categories;")['num'];
+$ping_lun_num=xiu_fetch_one("select count(1) as num from comments")['num'];
+?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -13,13 +20,7 @@
 <script>NProgress.start()</script>
 
 <div class="main">
-    <nav class="navbar">
-        <button class="btn btn-default navbar-btn fa fa-bars"></button>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="profile.php"><i class="fa fa-user"></i>个人中心</a></li>
-            <li><a href="login.php"><i class="fa fa-sign-out"></i>退出</a></li>
-        </ul>
-    </nav>
+    <?php include 'inc/navbar.php' ?>
     <div class="container-fluid">
         <div class="jumbotron text-center">
             <h1>One Belt, One Road</h1>
@@ -32,10 +33,10 @@
                     <div class="panel-heading">
                         <h3 class="panel-title">站点内容统计：</h3>
                     </div>
+                    <li class="list-group-item"><strong><?php echo $wen_zhang_num;?> </strong>篇文章（<strong>2</strong>篇草稿）</li>
+                    <li class="list-group-item"><strong><?php echo $fen_lei_num;?> </strong>个分类</li>
+                    <li class="list-group-item"><strong><?php echo $ping_lun_num;?> </strong>条评论（<strong>1</strong>条待审核）</li>
                     <ul class="list-group">
-                        <li class="list-group-item"><strong>10</strong>篇文章（<strong>2</strong>篇草稿）</li>
-                        <li class="list-group-item"><strong>6</strong>个分类</li>
-                        <li class="list-group-item"><strong>5</strong>条评论（<strong>1</strong>条待审核）</li>
                     </ul>
                 </div>
             </div>
@@ -44,7 +45,7 @@
         </div>
     </div>
 </div>
-<?php $page_name='index'; ?>
+<?php $page_name = 'index'; ?>
 <?php include 'inc/sidebar.php' ?>
 
 <script src="/static/assets/vendors/jquery/jquery.js"></script>
