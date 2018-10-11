@@ -194,32 +194,22 @@ $fen_lei_contents = xiu_fetch_all("select * from categories");
         var $batchOperation = $('#selection');
         var allCheckeds = [];
 
-        function operation() {
-            allCheckeds.length ? $batchDelete.fadeIn() : $batchDelete.fadeOut();
-            $batchDelete.prop('search', '?id=' + allCheckeds);
-        }
 
         $checkboxes.on('change', function () {
             var id = $(this).data('id');
             if ($(this).prop('checked')) {
-                allCheckeds.push(id);
+                allCheckeds.indexOf(id)!==-1||allCheckeds.push(id);
             } else {
                 allCheckeds.splice(allCheckeds.indexOf(id), 1);
             }
-            operation();
+            allCheckeds.length ? $batchDelete.fadeIn() : $batchDelete.fadeOut();
+            $batchDelete.prop('search', '?id=' + allCheckeds);
+            console.log(allCheckeds);
         });
+
         $batchOperation.on('change', function () {
-            if ($(this).prop('checked')) {
-                $checkboxes.prop('checked', true);
-                $checkboxes.each(function () {
-                    var id = $(this).data('id');
-                    allCheckeds.push(id);
-                })
-            } else {
-                $checkboxes.prop('checked', false);
-                allCheckeds = [];
-            }
-            operation();
+            var checked=$(this).prop('checked');
+            $checkboxes.prop('checked', checked).trigger('change');
         })
     })
 </script>
