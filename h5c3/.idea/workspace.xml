@@ -2,75 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d9eebd1-a131-4f59-89eb-28ac71e7f7da" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/css/jquery.fullpage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/00-go.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/00-more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/00-point01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/00-point02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/01-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/01-fly.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/01-goods.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/01-sofa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/02-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/02-goods.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/02-key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/02-search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/02-sofa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/02-text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/02-text02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/02-text1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/02-text2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/03-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/03-cart01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/03-cart02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/03-change01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/03-change02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/04-address01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/04-address02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/04-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/04-cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/04-cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/04-sofa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/04-text01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/04-text02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/05-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/05-card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/05-hand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/05-mouse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/05-mouse01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/05-mouse02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/05-order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/05-text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/06-address.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/06-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/06-box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/06-buyer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/06-car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/06-cloud01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/06-cloud02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/06-door.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/06-person.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/06-say.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/06-text01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/06-text02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/06-worker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/07-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/07-star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/07-text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/08-again.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/08-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/08-btn01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/08-btn02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/images/08-hand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/js/jquery.fullpage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/cart/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5c3.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../baixiu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../baixiu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h5c3.md" beforeDir="false" afterPath="$PROJECT_DIR$/h5c3.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,24 +51,96 @@
       <usages-collector id="statistics.php.composer.command.options" />
       <usages-collector id="statistics.php.rename.constructor" />
     </session>
+    <session id="-695483426">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="md" value="1165" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="1165" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.php.new.test" />
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="Markdown" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="html" value="1" />
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.composer.actions" />
+      <usages-collector id="statistics.php.new.class" />
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/h5c3.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="114">
-                <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="513">
+                <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day01/note.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="266">
+                <caret line="14" column="96" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="96" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day01/cart/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day01/cart/index.html">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day01/cart/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -193,7 +199,7 @@
               <item name="h5c3" type="462c0819:PsiDirectoryNode" />
               <item name="day01" type="462c0819:PsiDirectoryNode" />
               <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,23 +243,22 @@
       <option name="presentableId" value="Default" />
       <updated>1539502612431</updated>
       <workItem from="1539502615568" duration="2479000" />
+      <workItem from="1539584861085" duration="4250000" />
+      <workItem from="1539597123526" duration="2951000" />
+      <workItem from="1540121715184" duration="1111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2479000" />
+    <option name="totallyTimeSpent" value="10791000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13036565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -261,10 +266,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,16 +286,40 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/h5c3.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="114">
-            <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="513">
+            <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="14" column="96" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="96" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day01/cart/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/cart/index.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/cart/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
