@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="chart" style="width:800px;height: 600px;"></div>
+</body>
+<script src="static/assets/vendors/jquery/jquery.min.js"></script>
+<script src="static/assets/vendors/echarts/echarts.min.js"></script>
+<script>
+    var myChart=echarts.init($('.chart')[0]);
+    var option1 = {
+        legend: {},
+        tooltip: {},
+        dataset: {
+            // 提供一份数据。
+            source: [
+                {product: 'Matcha Latte', count: 823, score: 95.8,test:265},
+                {product: 'Milk Tea', count: 235, score: 81.4,test:123.8},
+                {product: 'Cheese Cocoa', count: 1042, score: 91.2,test:568},
+                {product: 'Walnut Brownie', count: 988, score: 76.9,test:356}
+            ]
+        },
+        // 声明一个 X 轴，类目轴（category）。默认情况下，类目轴对应到 dataset 第一列。
+        xAxis: {type: 'category'},
+        // 声明一个 Y 轴，数值轴。
+        yAxis: {},
+        // 声明多个 bar 系列，默认情况下，每个系列会自动对应到 dataset 的每一列。
+        series: [
+            {type: 'bar'},
+            {type: 'bar'},
+            {type: 'bar'}
+        ]
+    };
+    myChart.setOption(option1);
+</script>
+</html>
