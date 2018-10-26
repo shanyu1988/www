@@ -166,10 +166,12 @@
         };
         var chart1=echarts.init($('#chart1')[0]);
         var option1={
+            color:['#36b5df','#659e33', '#ff9d0b', '#e25151'],
             title:{ //标题组件，包含主标题和副标题。
                 text:'极坐标散点图(A1 bottom camera)',
                 textStyle:{
-                    color:'#cccccc'
+                    color:'#cccccc',
+                    fontSize:'16px'
                 }
             },
             grid: {
@@ -204,6 +206,8 @@
                 type: 'value',
                 name:'数量',
                 scale: true,
+                min:-300,
+                max:300,
                 axisLabel: {
                     formatter: '{value}'
                 },
@@ -231,6 +235,8 @@
                 type: 'value',
                 name: '价格',
                 scale: true,
+                min:-300,
+                max:300,
                 axisLabel: {
                     formatter: '{value}'
                 },
@@ -258,11 +264,17 @@
                 type: 'scatter',
                 data: data.day01,
                 dimension: ['x', 'y','size'],
+                symbolSize: function (val) {
+                    return Math.max(val[2] / 10, 8);
+                }
             },
             {
                 type: 'scatter',
                 data: data.day02,
                 dimension: ['x', 'y','size'],
+                symbolSize: function (val) {
+                    return Math.max(val[2] / 2, 6);
+                }
             }]
         };
         chart1.setOption(option1);
