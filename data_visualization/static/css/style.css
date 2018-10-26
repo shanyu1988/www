@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    font-family: Microsoft YaHei,"微软雅黑","\5FAE\8F6F\96C5\9ED1",Arial;
 }
 
 /** 清除内外边距 **/
@@ -86,26 +87,254 @@ table {
     url('../vendors/iconfont/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
     url('../vendors/iconfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
+@font-face {
+    font-family: "nasa";
+    /*G:\www\data_visualization\static\font\nasa-display.ttf*/
+    src: url('../font/nasa-display.ttf'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+}
 .iconfont {
     font-family:"iconfont" !important;
-    font-size:16px;
+    font-size:18px;
     font-style:normal;
     -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
 }
+.nasa{
+    font-family:"nasa" !important;
+    font-size:24px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*字体图标文件引入END*/
 
+/*滚动条样式*/
+.gdt{
+}
+.gdt::-webkit-scrollbar{width:8px;}
+.gdt::-webkit-scrollbar-track{background-color:rgba(255,255,255,0.4);border-radius: 0;}
+.gdt::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,0.6);border-radius:10px;}
+.gdt::-webkit-scrollbar-thumb:hover {background-color:rgba(0,0,0,0.4)}
+.gdt::-webkit-scrollbar-thumb:active {background-color:rgba(0,0,0,0.8)}
+
+/*滚动条样式END*/
+.layui-layout-body{
+    width: 100%;
+    height: 100%;
+    min-width: 1200px;
+    overflow: auto;
+}
+
+/*通用颜色代码*/
+.bg-color-1{
+    background-color: #36b5df;
+}
+.bg-color-2{
+    background-color: #659e33;
+}
+.bg-color-3{
+    background-color: #ff9d0b;
+}
+.bg-color-4{
+    background-color: #e25151;
+}
+.color-1{
+    color: #36b5df;
+}
+.color-2{
+    color: #659e33;
+}
+.color-3{
+    color: #ff9d0b;
+}
+.color-4{
+    color: #e25151;
+}
 /*数据可视化通用代码*/
 body.dark{
     background-image: -moz-linear-gradient( 135deg, rgb(7,10,16) 0%, rgb(46,56,77) 100%);
     background-image: -webkit-linear-gradient( 135deg, rgb(7,10,16) 0%, rgb(46,56,77) 100%);
     background-image: -ms-linear-gradient( 135deg, rgb(7,10,16) 0%, rgb(46,56,77) 100%);
-    width: 100%;
-    height: 100%;
 }
-.dark .layui-header{
+.content-body .header{
+    font-size: 0;
     height: 60px;
+    position: absolute;
+    width: 100%;
+    z-index: 101;
+}
+.dark .header{
     background-color: rgba(0,0,0,0.3);
 }
+.content-body header>h1{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height:56px;
+    padding-left: 20px;
+    display: inline-block;
+}
+.content-body header>h1>span{
+    font-size: 14px;
+    font-weight: normal;
+    display: inline-block;
+    padding-left: 10px;
+}
+.content-body header .layui-nav{
+    background-color: rgba(255,255,255,.06);
+    border-radius:0;
+}
 
+.content-body>header .layui-nav{
+    padding:0;
+}
+.content-body>header .layui-nav .layui-nav-item .other{
+    width: 150px;
+    height: 60px;
+}
+.content-body>header .layui-nav .layui-nav-item a>.iconfont{
+    padding-right: 10px;
+}
+.dark .layui-nav-child{
+    box-shadow: 0 2px 4px rgba(0,0,0,.8);
+    border: 1px solid rgba(0,0,0,.2);
+    background-color: rgba(0,0,0,.6);
+}
+.dark .layui-nav .layui-nav-child a{
+    color: #cccccc;
+}
+.dark .layui-nav .layui-nav-child a:hover{
+    background-color: rgba(255,255,255,.2);
+}
+.layui-layout-body main{
+    width: 100%;
+    top:60px;
+    bottom: 0;
+    position: absolute;
+    overflow-y: auto;
+    z-index: 100;
+}
+.layui-layout-body main>article{
+    width: 100%;
+    padding: 10px 10px;
+}
+.layui-layout-body main>article .layui-col-sm1{
+    padding: 5px 5px;
+}
+.layui-layout-body main>article .layui-col-sm2{
+    padding: 5px 5px;
+}
+.layui-layout-body main>article .layui-col-sm3{
+    padding: 5px 5px;
+}
+.layui-layout-body main>article .layui-col-sm4{
+    padding: 5px 5px;
+}
+.layui-layout-body main>article .layui-col-sm5{
+    padding: 5px 5px;
+}
+.layui-layout-body main>article .layui-col-sm6{
+    padding: 5px 5px;
+}
+.layui-layout-body main>article .layui-col-sm7{
+    padding: 5px 5px;
+}
+.layui-layout-body main>article .layui-col-sm8{
+    padding: 5px 5px;
+}
+.layui-layout-body main>article .layui-col-sm9{
+    padding: 5px 5px;
+}
+.layui-layout-body .layui-card{
+    border-radius: 0;
+    background-color: unset;
+}
+.layui-layout-body .layui-card .layui-card-header{
+    position: relative;
+    height: 38px;
+    line-height: 38px;
+    border-bottom:none;
+    color: #b9c0c7;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+.layui-layout-body .layui-card .layui-card-body {
+    position: relative;
+    padding: 5px 10px;
+    background-color: rgba(255,255,255,.04);
+    line-height: 24px;
+}
+.now-charts .layui-card-body{
+    height: 100px;
+}
+.now-charts .layui-col-sm4 .layui-col-sm4{
+    height: 100%;
+    border-right: 1px solid rgba(255,255,255,0.2);
+    background-color: rgba(0,0,0,.3);
+}
+.now-charts .layui-col-sm4 .layui-col-sm4:last-child{
+    border-right: none;
+}
+.now-charts .layui-col-sm4 .layui-col-sm4>h4{
+    width: 100%;
+    line-height: 24px;
+    margin-top: 10px;
+    color: #b9c0c7;
+    font-size: 14px;
+    text-align: center;
+}
 
+.now-charts .layui-col-sm4 .layui-col-sm4>h3{
+    margin-top: 6px;
+    font-size: 30px;
+    color: #8aa8e5;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+}
+.layui-layout-body .now-charts .layui-card .layui-card-body{
+    padding: 5px;
+}
+.now-charts .layui-col-sm8 .layui-col-sm3{
+    height: 100%;
+
+}
+.now-charts .layui-col-sm8 .layui-col-sm3 .layui-card{
+    background-color: rgba(0,0,0,.3);
+    height: 100%;
+    line-height: 80px;
+    padding: 0 10px;
+}
+.now-charts .layui-col-sm8 .layui-col-sm3 .layui-card>h4{
+    line-height: 24px;
+    width: 64%;
+    padding-left: 20px;
+    float: right;
+    font-size: 14px;
+    color: #a2a9af;
+}
+.now-charts .layui-col-sm8 .layui-col-sm3 .layui-card>h3{
+    line-height: 30px;
+    margin-top: 14px;
+    font-family: "nasa";
+    padding-left: 20px;
+    width: 64%;
+    float: right;
+    color: #cccccc;
+    font-size: 24px;
+}
+.now-charts .layui-col-sm8 .layui-col-sm3 .layui-card>h3>span{
+    padding-left: 6px;
+    font-size: 16px;
+}
+.now-charts .layui-col-sm8 .layui-col-sm3 .layui-card .iconfont{
+    border-radius: 2px;
+    font-size: 30px;
+    margin-top: 10px;
+    float: left;
+    width: 36%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #FFFFFF;
+}

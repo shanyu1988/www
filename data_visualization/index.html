@@ -2,26 +2,273 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>数据可视化</title>
     <link rel="stylesheet" href="static/vendors/layui/css/layui.css" media="all">
     <link rel="stylesheet" href="static/css/style.css">
     <style>
-        html{
+        html {
             width: 100%;
             height: 100%;
+            min-width: 1200px;
+        }
+
+        body * {
+            box-sizing: border-box;
+        }
+
+        #chart1 {
+            height: 500px;
         }
     </style>
 </head>
-<body class="dark layui-layout-body">
-/*layui-layout layui-layout-admin*/
-<header class="layui-header">
+<body class="dark layui-layout-body content-body">
+<!--layui-layout layui-layout-admin-->
+<header class="header">
     <h1>HAMA(当前设备名称)<span>设备登录号:GLYG00001</span></h1>
-    <nav></nav>
+    <ul class="layui-nav layui-layout-right">
+        <li class="layui-nav-item">
+            <a class="other" href=""><span class="iconfont">&#xeb9d;</span>其他设备<span class="layui-badge">9</span></a>
+            <dl class="layui-nav-child">
+                <dd><a href="javascript:;">HAMA1</a></dd>
+                <dd><a href="javascript:;">HAMA2</a></dd>
+                <dd><a href="javascript:;">HAMA3</a></dd>
+                <dd><a href="javascript:;">HAMA4</a></dd>
+                <dd><a href="javascript:;">HAMA5</a></dd>
+                <dd><a href="javascript:;">HAMA6</a></dd>
+            </dl>
+        </li>
+        <li class="layui-nav-item">
+            <a href="">数据中心<span class="layui-badge-dot"></span></a>
+        </li>
+    </ul>
 </header>
-<main></main>
+<main class="gdt">
+    <article class="layui-container">
+        <div class="layui-row now-charts">
+            <div class="layui-col-sm4">
+                <div class="layui-card">
+                    <div class="layui-card-body">
+                        <div class="layui-col-sm4">
+                            <h4>运行时间</h4>
+                            <h3 class="nasa">04:05:16</h3>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <h4>产量</h4>
+                            <h3 class="nasa">14561</h3>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <h4>稼动率</h4>
+                            <h3 class="nasa">92%</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="layui-col-sm8">
+                <div class="layui-card">
+                    <div class="layui-card-body">
+                        <div class="layui-col-sm3">
+                            <div class="layui-card">
+                                <i class="iconfont bg-color-1">&#xec20;</i>
+                                <h3>32<span>℃</span></h3>
+                                <h4>当前温度</h4>
+                            </div>
+                        </div>
+                        <div class="layui-col-sm3">
+                            <div class="layui-card">
+                                <i class="iconfont bg-color-2">&#xe90e;</i>
+                                <h3>212.2<span>kPa</span></h3>
+                                <h4>当前压力</h4>
+                            </div>
+                        </div>
+                        <div class="layui-col-sm3">
+                            <div class="layui-card">
+                                <i class="iconfont bg-color-3">&#xea81;</i>
+                                <h3>42<span>%</span></h3>
+                                <h4>当前湿度</h4>
+                            </div>
+                        </div>
+                        <div class="layui-col-sm3">
+                            <div class="layui-card">
+                                <i class="iconfont bg-color-4">&#xe90e;</i>
+                                <h3>32<span>℃</span></h3>
+                                <h4>当前温度</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-row">
+            <div class="layui-col-sm6">
+                <div class="layui-card">
+                    <div class="layui-card-header">卡片面板</div>
+                    <div class="layui-card-body" id="chart1">
+
+                    </div>
+                </div>
+            </div>
+            <div class="layui-col-sm6">
+                <div class="layui-card">
+                    <div class="layui-card-header">卡片面板</div>
+                    <div class="layui-card-body">
+                        卡片式面板面板通常用于非白色背景色的主体内<br>
+                        从而映衬出边框投影
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</main>
+<footer></footer>
 <script src="./static/vendors/jquery/jquery.min.js"></script>
 <script src="./static/vendors/layui/layui.js"></script>
+<script src="./static/vendors/echarts/echarts.min.js"></script>
+<script>
+    //JavaScript代码区域
+    layui.use('element', function () {
+        var element = layui.element;
+    });
+    layui.config({
+        debug: false //用于开启调试模式，默认false，如果设为true，则JS模块的节点会保留在页面
+    });
+    $(function ($) {
+        var data={
+            'day01':[
+                [-83,-175,2],
+                [-234,51,8],
+                [49,-28,2],
+                [-17,-165,2],
+                [87,-60,1],
+                [-49,-170,2],
+                [61,31,12],
+                [-14,-150,2],
+                [-27,-136,4],
+                [-210,-119,8],
+                [67,69,5],
+                [210,125,1]
+            ],
+            'day02':[
+                [-63,136,2],
+                [-60,-123,4],
+                [25,-231,5],
+                [-16,165,2],
+                [-12,-60,2],
+                [152,123,1],
+                [-169,125,25],
+                [-125,23,11],
+                [125,116,25],
+                [15,-23,36],
+                [-26,-25,11],
+                [48,98,12]
+            ]
+        };
+        var chart1=echarts.init($('#chart1')[0]);
+        var option1={
+            title:{ //标题组件，包含主标题和副标题。
+                text:'极坐标散点图(A1 bottom camera)',
+                textStyle:{
+                    color:'#cccccc'
+                }
+            },
+            grid: {
+                left: '3%',
+                right: '10%',
+                bottom: '4%',
+                containLabel: true
+            },
+            tooltip: {
+                trigger: 'item',
+                showDelay: 0,
+                formatter: function(params) {
+                    return 'A1 bottom camera X[um]： '
+                        + params.value[0]
+                        + '<br/> '
+                        + 'A1 bottom camera Y[um]: '
+                        +params.value[1]
+                        +'<br/>' +
+                        '次数：' +
+                        params.value[2];
+                },
+                axisPointer: {
+                    show: true,
+                    type: 'cross',
+                    lineStyle: {
+                        type: 'dashed',
+                        width: 1
+                    }
+                }
+            },
+            xAxis: [{
+                type: 'value',
+                name:'数量',
+                scale: true,
+                axisLabel: {
+                    formatter: '{value}'
+                },
+                nameTextStyle: {
+                    color: '#cccccc',
+                    fontSize: 14,
+                },
+                axisTick: {
+                    show: true,
+                },
+                axisLine: {
+                    lineStyle: {
+                        color: '#3259B8',
+                    },
+                    symbol:['none','arrow']
+                },
+                splitLine: {
+                    show: true,
+                    lineStyle: {
+                        type: 'dotted'
+                    }
+                }
+            }],
+            yAxis: [{
+                type: 'value',
+                name: '价格',
+                scale: true,
+                axisLabel: {
+                    formatter: '{value}'
+                },
+                nameTextStyle: {
+                    color: '#3259B8',
+                    fontSize: 14
+                },
+                axisTick: {
+                    show: true,
+                },
+                axisLine: {
+                    lineStyle: {
+                        color: '#3259B8',
+                    },
+                    symbol:['none','arrow']
+                },
+                splitLine: {
+                    show: true,
+                    lineStyle: {
+                        type: 'dotted'
+                    }
+                }
+            }],
+            series: [{
+                type: 'scatter',
+                data: data.day01,
+                dimension: ['x', 'y','size'],
+            },
+            {
+                type: 'scatter',
+                data: data.day02,
+                dimension: ['x', 'y','size'],
+            }]
+        };
+        chart1.setOption(option1);
+
+    })
+</script>
 <script>
 
 </script>
