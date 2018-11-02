@@ -372,6 +372,21 @@ body.dark{
     color: #FFFFFF;
     font-size: 20px;
 }
+
+/*自定义弹窗样式*/
+body .my-open-class{
+    background-color: rgba(0,0,0,0.9);
+    box-shadow:0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+body .my-open-class .layui-layer-title{background:rgba(0,0,0,0.4); color:#fff;border-bottom:1px solid rgba(255,255,255,0.1)}
+body .my-demo-class .layui-layer-btn{}
+body .my-demo-class .layui-layer-setwin .layui-layer-close1 {
+    background-position: 1px -40px;
+    cursor: pointer;
+}
+body .my-demo-class .layui-layer-btn a{background:#333;}
+body .my-demo-class .layui-layer-btn .layui-layer-btn1{background:#999;}
+
 /*************************数据可视化通用代码 END*************************/
 
 

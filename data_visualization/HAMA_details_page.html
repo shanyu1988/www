@@ -26,11 +26,11 @@
 </head>
 <body class="dark layui-layout-body content-body">
 <!--layui-layout layui-layout-admin-->
-<header class="header">
-    <h1>HAMA(当前设备名称)<span>设备登录号:GLYG00001</span></h1>
+<header class="header" id="header">
+    <h1>HAMA<span>设备登录号:{{sbdlh[0]}}</span></h1>
     <ul class="layui-nav layui-layout-right">
         <li class="layui-nav-item">
-            <a class="other" href=""><span class="iconfont">&#xeb9d;</span>其他设备<span class="layui-badge">9</span></a>
+            <a class="other" href=""><span class="iconfont">&#xeb9d;</span>其他设备<span class="layui-badge">{{sbdlh[1]}}</span></a>
             <dl class="layui-nav-child">
                 <dd><a href="javascript:;">HAMA1</a></dd>
                 <dd><a href="javascript:;">HAMA2</a></dd>
@@ -45,7 +45,7 @@
         </li>
     </ul>
 </header>
-<main class="gdt">
+<main class="gdt" id="app">
     <article class="layui-container">
         <div class="layui-row now-charts">
             <div class="layui-col-sm4">
@@ -107,12 +107,12 @@
         <div class="layui-row">
             <div class="layui-col-sm3">
                 <div class="layui-card">
-                    <div class="layui-card-header">产出<a class="history-btn"><i class="iconfont">&#xe95c;</i></a></div>
+                    <div class="layui-card-header">产出<a class="history-btn" id="completion"><i class="iconfont">&#xe95c;</i></a></div>
                     <div class="layui-card-body produce">
                         <h3><i class="iconfont">&#xec35;</i> 计划产出：25368</h3>
                         <div id="meter1"></div>
                         <h4>完成率：96%</h4>
-                    </div>
+                    </div>c
                 </div>
             </div>
             <div class="layui-col-sm9">
@@ -202,12 +202,20 @@
         var element = layui.element;
         var layer = layui.layer;
 
-        /*弹出层调用*/
-        $.post('url', {}, function(str){
+        $('#completion').click(function () {
             layer.open({
                 type: 1,
-                content:str
+                content:'我是谁',
+                area:['600px','400px'],
+                skin:'my-open-class',
+                closeBtn:2
             });
+        });
+        var header = new Vue({
+            el: '#header',
+            data: {
+                sbdlh:['GLYG00001',9]
+            }
         });
 
     });
