@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12ad933c-3c17-425c-9b22-67612a7562a4" name="默认更改列表" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/HAMA_details_page.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/HAMA_details_page_02.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/detailsPage.html" afterDir="false" />
@@ -22,6 +23,11 @@
       <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/common_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/vendors/echarts/echarts.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendors/echarts/echarts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/../h5c3/test.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../h5c3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../h5c3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../h5c3/h5c3.md" beforeDir="false" afterPath="$PROJECT_DIR$/../h5c3/h5c3.md" afterDir="false" />
+>>>>>>> ee2fa69d48a74c5b8e3d8c3fb092385de7f1ad38
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +39,7 @@
     <session id="756998771">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.16" value="1" />
@@ -41,6 +48,12 @@
           <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.opened" value="8" />
+=======
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.opened" value="3" />
+>>>>>>> ee2fa69d48a74c5b8e3d8c3fb092385de7f1ad38
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -95,10 +108,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HAMA_details_page.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="279">
               <caret line="204" column="17" selection-start-line="204" selection-start-column="17" selection-end-line="204" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+            <state relative-caret-position="2106">
+              <caret line="246" column="27" selection-start-line="246" selection-start-column="27" selection-end-line="246" selection-end-column="27" />
+              <folding>
+                <element signature="n#ul#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+>>>>>>> ee2fa69d48a74c5b8e3d8c3fb092385de7f1ad38
               </folding>
             </state>
           </provider>
@@ -107,8 +127,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/common_style.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="27">
               <caret line="361" column="35" selection-start-line="361" selection-start-column="35" selection-end-line="361" selection-end-column="35" />
+=======
+            <state relative-caret-position="1159">
+              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+>>>>>>> ee2fa69d48a74c5b8e3d8c3fb092385de7f1ad38
             </state>
           </provider>
         </entry>
@@ -116,8 +141,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/HAMA_details_page.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="103">
               <caret line="644" column="7" lean-forward="true" selection-start-line="644" selection-start-column="7" selection-end-line="644" selection-end-column="7" />
+=======
+            <state relative-caret-position="2071">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
+>>>>>>> ee2fa69d48a74c5b8e3d8c3fb092385de7f1ad38
             </state>
           </provider>
         </entry>
@@ -231,7 +261,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -271,6 +301,7 @@
       <option name="presentableId" value="Default" />
       <updated>1540445775356</updated>
       <workItem from="1540445776572" duration="8026000" />
+<<<<<<< HEAD
       <workItem from="1540511996044" duration="27212000" />
       <workItem from="1540771255488" duration="25020000" />
       <workItem from="1540803658163" duration="176000" />
@@ -278,23 +309,39 @@
       <workItem from="1540944278731" duration="26145000" />
       <workItem from="1541030641005" duration="21005000" />
       <workItem from="1541116772042" duration="969000" />
+=======
+      <workItem from="1540511996044" duration="25285000" />
+      <workItem from="1540705624227" duration="608000" />
+>>>>>>> ee2fa69d48a74c5b8e3d8c3fb092385de7f1ad38
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="141831000" />
+=======
+    <option name="totallyTimeSpent" value="33919000" />
+>>>>>>> ee2fa69d48a74c5b8e3d8c3fb092385de7f1ad38
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21558245" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32840723" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16295707" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+>>>>>>> ee2fa69d48a74c5b8e3d8c3fb092385de7f1ad38
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32840723" />
@@ -322,6 +369,14 @@
     <entry file="file://$PROJECT_DIR$/static/vendors/vue/vue.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/static/vendors/vue/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273166" />
+      </provider>
+    </entry>
+>>>>>>> ee2fa69d48a74c5b8e3d8c3fb092385de7f1ad38
     <entry file="file://$PROJECT_DIR$/static/vendors/echarts/echarts.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -342,10 +397,30 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> ee2fa69d48a74c5b8e3d8c3fb092385de7f1ad38
     <entry file="file://$PROJECT_DIR$/static/vendors/layui/layui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="1339" selection-start-line="1" selection-start-column="1339" selection-end-line="1" selection-end-column="1339" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2106">
+          <caret line="246" column="27" selection-start-line="246" selection-start-column="27" selection-end-line="246" selection-end-column="27" />
+          <folding>
+            <element signature="n#ul#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -360,13 +435,19 @@
     <entry file="file://$PROJECT_DIR$/test.html" />
     <entry file="file://$PROJECT_DIR$/detailsPage.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="245">
           <caret line="178" column="2" lean-forward="true" selection-start-line="178" selection-start-column="2" selection-end-line="181" selection-end-column="34" />
+=======
+        <state relative-caret-position="1159">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+>>>>>>> ee2fa69d48a74c5b8e3d8c3fb092385de7f1ad38
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/my_echarts.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state>
           <caret selection-end-column="59" />
         </state>
@@ -433,6 +514,10 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="2071">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+>>>>>>> ee2fa69d48a74c5b8e3d8c3fb092385de7f1ad38
         </state>
       </provider>
     </entry>
