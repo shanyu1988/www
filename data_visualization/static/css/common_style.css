@@ -375,17 +375,19 @@ body.dark{
 
 /*自定义弹窗样式*/
 body .my-open-class{
-    background-color: rgba(0,0,0,0.9);
+    background-image: -moz-linear-gradient( 135deg, rgb(7,10,16) 0%, rgb(46,56,77) 100%);
+    background-image: -webkit-linear-gradient( 135deg, rgb(7,10,16) 0%, rgb(46,56,77) 100%);
+    background-image: -ms-linear-gradient( 135deg, rgb(7,10,16) 0%, rgb(46,56,77) 100%);
     box-shadow:0 6px 20px 0 rgba(0, 0, 0, 1);
 }
-body .my-open-class .layui-layer-title{background:rgba(0,0,0,0.4); color:#fff;border-bottom:1px solid rgba(255,255,255,0.1)}
+body .my-open-class .layui-layer-title{background:rgba(0,0,0,0.4); color:#fff;border-bottom: none}
 body .my-demo-class .layui-layer-btn{}
 body .my-demo-class .layui-layer-setwin .layui-layer-close1 {
     background-position: 1px -40px;
     cursor: pointer;
 }
 body .my-demo-class .layui-layer-btn a{background:#333;}
-body .my-demo-class .layui-layer-btn .layui-layer-btn1{background:#999;}
+body .my-demo-class .layui-layer-btn .layui-layer-btn1{background:rgba(255,255,255,0.6);}
 
 /*************************数据可视化通用代码 END*************************/
 
@@ -496,7 +498,50 @@ body .my-demo-class .layui-layer-btn .layui-layer-btn1{background:#999;}
 .row-3 .layui-card-body .layui-col-sm3{
     height: 100%;
 }
+#completionHistory{
+    width: 100%;
+    height: 100%;
+}
 
+.back-btn{
+    float: left;
+}
+.bad-cause .layui-table{
+    background:none;
+    color: #8a8d99;
+
+}
+.bad-cause .layui-table td{
+    border-color: rgba(255,255,255,0.1);
+    font-size: 12px;
+}
+.bad-cause .layui-table tbody tr td:nth-child(2){
+    color: #ff3535;
+}
+.bad-cause .layui-table tbody tr:hover{
+    background-color: rgba(0,0,0,0.4);
+}
+.back-btn{
+    margin: 10px 10px 0 20px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: background-color 0.4s linear;
+    border-radius:4px;
+}
+.back-btn:hover{
+    background-color: rgba(0,108,255,0.3);
+}
+.back-btn:active{
+    opacity: 0.6;
+}
+.back-btn .iconfont{
+    font-size: 20px;
+    color: #FFFFFF;
+}
 /**  HAMA详情页 样式END**/
 
 
@@ -511,7 +556,7 @@ body .my-demo-class .layui-layer-btn .layui-layer-btn1{background:#999;}
     cursor: pointer;
     height: 280px;
     background-color: rgba(0,0,0,0.4);
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6),0 3px 2px 0 rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     overflow: hidden;
     display: block;
@@ -521,7 +566,7 @@ body .my-demo-class .layui-layer-btn .layui-layer-btn1{background:#999;}
     opacity: 0.6;
 }
 .hama-list>.layui-col-sm3 .layui-card:hover{
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.9);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.9);
 }
 .hama-list .above{
     height: 160px;

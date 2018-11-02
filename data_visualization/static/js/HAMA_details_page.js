@@ -649,15 +649,24 @@ function Scatter(data,color,scaleX,scaleY,visualMap,title) {
         dimension: ['x', 'y', 'size'],
         symbolSize: 6,
         itemStyle:{
-            color:'rgba(255,255,255,0.6)',
-            shadowColor: 'rgba(255, 255, 255, 0.4)',
-            shadowBlur: 12,
+            color:'rgba(255,255,255,0.5)',
+            shadowColor: 'rgba(255, 255, 255, 0.6)',
+            shadowBlur: 8,
             opacity:0.8
         }
     }];
 }
 
-//调用  echarts option 对象
+
+
+/**
+ *
+ *
+ * 调用  echarts option 对象
+ *
+ *
+ *
+ * **/
 $(function ($) {
     //仪表盘
     var meter1=echarts.init($('#meter1')[0]);
@@ -693,14 +702,26 @@ $(function ($) {
 
     function arrA() {
         var dataA = [];
-        for (var i = 0; i < 50; i++) {
+        for (var i = 0; i < 30; i++) {
             dataA[i] = [];
             dataA[i][0] = RandomNumBoth(0, 300);
             dataA[i][1] = RandomNumBoth(0, 300);
         }
+        for (var j = 30; j < 80; j++) {
+            dataA[j] = [];
+            dataA[j][0] = RandomNumBoth(0, 100);
+            dataA[j][1] = RandomNumBoth(0, 100);
+        }
+        for (var j = 80; j < 120; j++) {
+            dataA[j] = [];
+            dataA[j][0] = RandomNumBoth(0, 30);
+            dataA[j][1] = RandomNumBoth(0, 30);
+        }
+
         return dataA;
     }
-    //详情
+
+    //散点图 调用
     var data1=arrA();
     var data2=arrA();
     var data3=arrA();
@@ -717,4 +738,259 @@ $(function ($) {
     chart2.setOption(option2);
     chart3.setOption(option3);
     chart4.setOption(option4);
+});
+
+
+/*
+* 产量完成率   柱状和折线
+*
+* */
+
+var completionHistoryData=[
+    [
+        "11-02:白班",
+        "11-02:夜班",
+        "11-03:白班",
+        "11-03:夜班",
+        "11-04:白班",
+        "11-04:夜班",
+        "11-05:白班",
+        "11-05:夜班",
+        "11-06:白班",
+        "11-06:夜班",
+        "11-07:白班",
+        "11-07:夜班",
+        "11-08:白班",
+        "11-08:夜班",
+        "11-09:白班",
+        "11-09:夜班",
+        "11-10:白班",
+        "11-10:夜班"
+    ],[
+        3000,
+        2600,
+        3000,
+        2600,
+        3000,
+        2600,
+        3000,
+        2600,
+        3000,
+        2600,
+        3000,
+        2600,
+        3000,
+        2600,
+        3000,
+        2600,
+        3000,
+        2600
+    ],[
+        2895,
+        2436,
+        2963,
+        2603,
+        3001,
+        2602,
+        2963,
+        2593,
+        2895,
+        2013,
+        1926,
+        1023,
+        3060,
+        2560,
+        2978,
+        2600,
+        2569,
+        1503
+    ]
+];
+completionHistoryData[3]=[];
+for (var i = 0; i < completionHistoryData[0].length; i++) {
+    completionHistoryData[3].push(((completionHistoryData[2][i]/completionHistoryData[1][i])*100).toFixed(2));
+}
+var completionHistoryOption = {
+    "color": "#384757",
+    "tooltip": {
+        "trigger": "axis",
+        "axisPointer": {
+            "type": "cross",
+            "crossStyle": {
+                "color": "#384757"
+            }
+        }
+    },
+    "legend": {
+        "data": [
+            {
+                "name": "实际完成数量",
+                "icon": "circle",
+                "textStyle": {
+                    "color": "#7d838b"
+                }
+            },{
+                "name": "计划完成数量",
+                "icon": "circle",
+                "textStyle": {
+                    "color": "#7d838b"
+                }
+            }, {
+                "name": "完成率",
+                "icon": "circle",
+                "textStyle": {
+                    "color": "#7d838b"
+                }
+            }
+        ],
+        "top": "0",
+        "textStyle": {
+            "color": "#fff"
+        }
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "data":completionHistoryData[0],
+            "axisPointer": {
+                "type": "shadow"
+            },
+            "axisLabel": {
+                "show": true,
+                "textStyle": {
+                    "color": "#7d838b"
+                }
+            }
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value",
+            "name": "output / hour",
+            "nameTextStyle": {
+                "color": "#7d838b"
+            },
+            "axisLabel": {
+                "show": true,
+                "textStyle": {
+                    "color": "#7d838b"
+                }
+            },
+            "axisLine": {
+                "show": true
+            },
+            "splitLine": {
+                show:false
+            }
+        },
+        {
+            "type": "value",
+            "name": "完成率",
+            "show": true,
+            "axisLabel": {
+                "show": true,
+                "textStyle": {
+                    "color": "#7d838b"
+                }
+            },
+            "splitLine": {
+                show:false
+            }
+        }
+    ],
+    "grid": {
+        top:'11%',
+        left:'5%',
+        width:'90%',
+        height:'80%',
+        backgroundColor:'rgba(0,0,0,0.4)'
+    },
+    "series": [
+        {
+            "name": "计划完成数量",
+            "type": "bar",
+            "data": completionHistoryData[1],
+            "barWidth": "auto",
+            "itemStyle": {
+                "normal": {
+                    "color": {
+                        "type": "linear",
+                        "x": 0,
+                        "y": 0,
+                        "x2": 0,
+                        "y2": 1,
+                        "colorStops": [
+                            {
+                                "offset": 0,
+                                "color": "rgba(5,117,230,0.6)"
+                            },
+                            {
+                                "offset": 1,
+                                "color": "rgba(0,242,96,0.6)"
+                            }
+                        ],
+                        "globalCoord": false
+                    }
+                }
+            }
+        },{
+            "name": "实际完成数量",
+            "type": "bar",
+            "data": completionHistoryData[2],
+            "barWidth": "auto",
+            "itemStyle": {
+                "normal": {
+                    "color": {
+                        "type": "linear",
+                        "x": 0,
+                        "y": 0,
+                        "x2": 0,
+                        "y2": 1,
+                        "colorStops": [
+                            {
+                                "offset": 0,
+                                "color": "rgba(241,39,17,0.6)"
+                            },
+                            {
+                                "offset": 1,
+                                "color": "rgba(245,175,25,0.6)"
+                            }
+                        ],
+                        "globalCoord": false
+                    }
+                }
+            }
+        },{
+            "name": "完成率",
+            "type": "line",
+            "yAxisIndex": 1,
+            "data": completionHistoryData[3],
+            "itemStyle": {
+                "normal": {
+                    color: "#ff9d0b",
+                    width: 2,
+                    shadowColor: 'rgba(0,0,0,0.8)',
+                    shadowBlur: 10,
+                    shadowOffsetY: 10
+                }
+            },
+            "smooth": true
+        }
+    ]
+};
+
+$('#completion').click(function () {
+    layer.open({
+        type: 1,
+        title:"计划完成率对比图",
+        content:'<div id="completionHistory"></div>',
+        area:['90%','90%'],
+        skin:'my-open-class',
+        closeBtn:2,
+        success:function () {
+            var completionHistory = echarts.init($('#completionHistory')[0]);
+            completionHistory.setOption(completionHistoryOption);
+        }
+    });
+
 });

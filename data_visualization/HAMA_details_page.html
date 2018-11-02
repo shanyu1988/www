@@ -26,11 +26,14 @@
 </head>
 <body class="dark layui-layout-body content-body">
 <!--layui-layout layui-layout-admin-->
-<header class="header" id="header">
-    <h1>HAMA<span>设备登录号:{{sbdlh[0]}}</span></h1>
+<header class="header">
+    <a class="back-btn" href="./index.html">
+        <i class="iconfont">&#xec68;</i>
+    </a>
+    <h1>HAMA<span>设备登录号:GLYG00001</span></h1>
     <ul class="layui-nav layui-layout-right">
         <li class="layui-nav-item">
-            <a class="other" href=""><span class="iconfont">&#xeb9d;</span>其他设备<span class="layui-badge">{{sbdlh[1]}}</span></a>
+            <a class="other" href=""><span class="iconfont">&#xeb9d;</span>其他设备<span class="layui-badge">9</span></a>
             <dl class="layui-nav-child">
                 <dd><a href="javascript:;">HAMA1</a></dd>
                 <dd><a href="javascript:;">HAMA2</a></dd>
@@ -134,7 +137,51 @@
             <div class="layui-col-sm3">
                 <div class="layui-card">
                     <div class="layui-card-header">不良原因</div>
-                    <div class="layui-card-body" >
+                    <div class="layui-card-body gdt bad-cause" >
+                        <table class="layui-table" border="0">
+                            <colgroup>
+                                <col width="80%">
+                                <col>
+                            </colgroup>
+                            <tbody>
+                            <tr>
+                                <td>画像1错误外观1-2NG</td>
+                                <td>70个</td>
+                            </tr>
+                            <tr>
+                                <td>画像1错误外观1-1NG</td>
+                                <td>69个</td>
+                            </tr>
+                            <tr>
+                                <td>加压1-2高度 超下限</td>
+                                <td>56个</td>
+                            </tr>
+                            <tr>
+                                <td>画像2错误外观2-2NG</td>
+                                <td>36个</td>
+                            </tr>
+                            <tr>
+                                <td>加压1-1高度 超下限</td>
+                                <td>27个</td>
+                            </tr>
+                            <tr>
+                                <td>画像2错误外观2-1NG</td>
+                                <td>25个</td>
+                            </tr>
+                            <tr>
+                                <td>加压1-2高度 超上限</td>
+                                <td>24个</td>
+                            </tr>
+                            <tr>
+                                <td>加压1-1高度 超上限</td>
+                                <td>21个</td>
+                            </tr>
+                            <tr>
+                                <td>到假硬化的时间过长</td>
+                                <td>4个</td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -202,21 +249,13 @@
         var element = layui.element;
         var layer = layui.layer;
 
-        $('#completion').click(function () {
-            layer.open({
-                type: 1,
-                content:'我是谁',
-                area:['600px','400px'],
-                skin:'my-open-class',
-                closeBtn:2
-            });
-        });
-        var header = new Vue({
+
+        /*var header = new Vue({
             el: '#header',
             data: {
                 sbdlh:['GLYG00001',9]
             }
-        });
+        });*/
 
     });
 
