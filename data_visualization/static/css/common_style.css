@@ -51,9 +51,12 @@ ul, ol {
 a {
     text-decoration: none;
 }
+a:link,a:visited{
+    text-decoration:none;  /*超链接无下划线*/
+}
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /** 重置表单元素 **/
@@ -108,16 +111,7 @@ table {
 }
 /*字体图标文件引入END*/
 
-/*滚动条样式*/
-.gdt{
-}
-.gdt::-webkit-scrollbar{width:8px;}
-.gdt::-webkit-scrollbar-track{background-color:rgba(255,255,255,0.4);border-radius: 0;}
-.gdt::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,0.6);border-radius:10px;}
-.gdt::-webkit-scrollbar-thumb:hover {background-color:rgba(0,0,0,0.4)}
-.gdt::-webkit-scrollbar-thumb:active {background-color:rgba(0,0,0,0.8)}
 
-/*滚动条样式END*/
 .layui-layout-body{
     width: 100%;
     height: 100%;
@@ -127,16 +121,16 @@ table {
 
 /*通用颜色代码*/
 .bg-color-1{
-    background-color: #36b5df;
+    background:linear-gradient(#36b5df,#2b91b3);
 }
 .bg-color-2{
-    background-color: #659e33;
+    background:linear-gradient(#81c941,#629931);
 }
 .bg-color-3{
-    background-color: #ff9d0b;
+    background:linear-gradient(#ff9d0b,#cc7e08);
 }
 .bg-color-4{
-    background-color: #e25151;
+    background:linear-gradient(#e25151,#cc7e08);
 }
 .color-1{
     color: #36b5df;
@@ -163,8 +157,11 @@ body.dark{
     width: 100%;
     z-index: 101;
 }
+
+
 .dark .header{
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(255,255,255,0.04);
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.5);
 }
 .content-body header>h1{
     color: #ffffff;
@@ -245,6 +242,15 @@ body.dark{
 .layui-layout-body main>article .layui-col-sm9{
     padding: 5px 5px;
 }
+.layui-layout-body main>article .layui-col-sm10{
+    padding: 5px 5px;
+}
+.layui-layout-body main>article .layui-col-sm11{
+    padding: 5px 5px;
+}
+.layui-layout-body main>article .layui-col-sm12{
+    padding: 5px 5px;
+}
 .layui-layout-body .layui-card{
     border-radius: 0;
     background-color: unset;
@@ -261,7 +267,7 @@ body.dark{
 .layui-layout-body .layui-card .layui-card-body {
     position: relative;
     padding: 5px 10px;
-    background-color: rgba(255,255,255,.04);
+    background-color: rgba(0,0,0,.3);
     line-height: 24px;
 }
 .now-charts .layui-card-body{
@@ -338,3 +344,253 @@ body.dark{
     line-height: 60px;
     color: #FFFFFF;
 }
+
+.history-btn{
+    display: block;
+    position: absolute;
+    right: 6px;
+    top:50%;
+    margin-top: -14px;
+    width: 20%;
+    text-align: center;
+    line-height: 28px;
+    height: 28px;
+    background-color: rgba(20,50,122,0.4);
+    cursor: pointer;
+    border-radius:2px;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.6);
+    transition:background-color 0.4s linear;
+}
+.history-btn:hover{
+    background-color: rgba(0,108,255,0.3);
+}
+.history-btn:active{
+    opacity: 0.6;
+}
+
+.history-btn .iconfont{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+/*************************数据可视化通用代码 END*************************/
+
+
+
+
+/**  HAMA详情页  样式**/
+
+#rhythm{
+    position: relative;
+    float: left;
+    width: 36%;
+    height: 60px;
+    border-radius: 4px;
+    margin: 10px 0 0 0;
+    overflow: hidden;
+    background:linear-gradient(#36d1dc,#5b86e5);
+}
+#rhythm .mask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #1f2736;
+    animation-name: mask;
+    animation-iteration-count:infinite;
+}
+#rhythm .iconfont{
+    position: absolute;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+}
+@keyframes mask
+{
+    0% {height: 100%;}
+    50% {height: 0;}
+    100% {height: 100%;}
+}
+
+
+
+.produce{
+    height: 300px;
+    position: relative;
+}
+.produce>h3{
+    padding: 10px 0;
+    width: 200px;
+    border-radius:4px;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 18px;
+    color: #f0f0f0;
+    text-align: center;
+    margin: 10px auto 0 auto;
+}
+.produce>h3 .iconfont{
+    padding-top: 6px;
+    font-weight: 100;
+    font-size: 22px;
+}
+.produce>h4{
+    position: absolute;
+    width: 160px;
+    left: 50%;
+    margin-left: -36px;
+    color: #FFFFFF;
+    bottom: 24px;
+}
+
+.row-2>.layui-col-sm3 .layui-card-body{
+    height: 300px;
+}
+.row-2>.layui-col-sm3 .layui-card-body.error-log{
+    background-color: rgba(0,0,0,0.6);
+    padding:10px 10px;
+    overflow-y: auto;
+}
+.error-log>p{
+    line-height: 26px;
+    padding: 0 10px;
+    color: #8a8d99;
+    font-size: 12px;
+    /*
+    溢出隐藏
+    */
+    overflow: hidden;
+    /*
+    显示省略号
+    */
+    text-overflow: ellipsis;
+    /*
+    不换行
+    */
+    white-space: nowrap;
+}
+.error-log>p>i{
+    padding-right: 20px;
+    color: #515f91;
+    font-style: normal;
+}
+.error-log>p>span{
+    color: #ff3535;
+    font-weight: bold;
+}
+.row-3 .layui-card-body{
+    height: 300px;
+}
+.row-3 .layui-card-body .layui-col-sm3{
+    height: 100%;
+}
+
+/**  HAMA详情页 样式END**/
+
+
+
+
+
+/*HAMA首页 样式*/
+ .layui-layout-body main>article .hama-list>.layui-col-sm3{
+    padding: 20px;
+}
+.hama-list>.layui-col-sm3 .layui-card{
+    cursor: pointer;
+    height: 280px;
+    background-color: rgba(0,0,0,0.4);
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+    transition:box-shadow 0.2s linear;
+}
+.hama-list>.layui-col-sm3 .layui-card:active{
+    opacity: 0.6;
+}
+.hama-list>.layui-col-sm3 .layui-card:hover{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.9);
+}
+.hama-list .above{
+    height: 160px;
+}
+.hama-list .above .layui-col-xs5{
+    height: 100%;
+}
+.hama-list .above .layui-col-xs5{
+    height: 100%;
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+.hama-list .above .layui-col-xs5 span{
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 16px;
+}
+.fat span{
+    background-image: url("../img/FAT.png");
+}
+.run span{
+    background-image: url("../img/RUN.png");
+}
+.stp span{
+    background-image: url("../img/STP.png");
+}
+.hama-list .above .layui-col-xs5 h4{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+.hama-list .above .layui-col-xs7{
+    height: 100%;
+    color: #dedfdf;
+    padding: 30px 0;
+}
+.hama-list .above .layui-col-xs7 label{
+    width: 80%;
+    color: rgba(255,255,255,0.2);
+}
+
+.hama-list .above .layui-col-xs7 *{
+    margin-left: 20%;
+}
+.hama-list .above .layui-col-xs7 h5{
+    font-size: 24px;
+    font-weight: bold;
+}
+.hama-list .above .layui-col-xs7 h6{
+    font-size: 18px;
+}
+.fat h4{
+    color: #ff3d14;
+}
+.run h4{
+    color: #91f0c3;
+}
+.stp h4{
+    color: #797a7d;
+}
+
+.hama-list .below{
+    height: 120px;
+    background-image: -moz-linear-gradient( 180deg, rgb(75,84,102) 0%, rgb(152,163,185) 100%);
+    background-image: -webkit-linear-gradient( 180deg, rgb(75,84,102) 0%, rgb(152,163,185) 100%);
+    background-image: -ms-linear-gradient( 180deg, rgb(75,84,102) 0%, rgb(152,163,185) 100%);
+}
+.hama-list .below .layui-col-sm4{
+    height: 100%;
+    padding: 20px ;
+    color: rgba(0,0,0,0.8);
+}
+.hama-list .below .layui-col-sm4 p{
+    margin-top: 12px;
+    width: 100%;
+}
+.hama-list .below .layui-col-sm4 h6{
+    font-size: 30px;
+}
+.hama-list .below .layui-col-sm4 h6 span{
+    font-size: 18px;
+}
+/*HAMA首页 样式 END*/
+
+

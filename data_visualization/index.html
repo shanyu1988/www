@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>数据可视化</title>
     <link rel="stylesheet" href="static/vendors/layui/css/layui.css" media="all">
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/common_style.css">
     <style>
         html {
             width: 100%;
@@ -17,16 +17,12 @@
         body * {
             box-sizing: border-box;
         }
-
-        #chart1 {
-            height: 500px;
-        }
     </style>
 </head>
 <body class="dark layui-layout-body content-body">
 <!--layui-layout layui-layout-admin-->
 <header class="header">
-    <h1>HAMA(当前设备名称)<span>设备登录号:GLYG00001</span></h1>
+    <h1>HAMA</h1>
     <ul class="layui-nav layui-layout-right">
         <li class="layui-nav-item">
             <a class="other" href=""><span class="iconfont">&#xeb9d;</span>其他设备<span class="layui-badge">9</span></a>
@@ -46,243 +42,274 @@
 </header>
 <main class="gdt">
     <article class="layui-container">
-        <div class="layui-row now-charts">
-            <div class="layui-col-sm4">
-                <div class="layui-card">
-                    <div class="layui-card-body">
+        <div class="layui-row hama-list">
+            <div class="layui-col-sm3">
+                <a class="layui-card">
+                    <div class="above">
+                        <div class="layui-col-xs5 fat">
+                            <span></span>
+                            <h4>故障</h4>
+                        </div>
+                        <div class="layui-col-xs7">
+                            <label>设备名称</label>
+                            <h5>HAMA</h5>
+                            <label>设备登录号</label>
+                            <h6>GLYG00001</h6>
+                        </div>
+                    </div>
+                    <div class="below">
                         <div class="layui-col-sm4">
-                            <h4>运行时间</h4>
-                            <h3 class="nasa">04:05:16</h3>
+                            <p>温度</p>
+                            <h6 class="nasa">27<span>℃</span></h6>
                         </div>
                         <div class="layui-col-sm4">
-                            <h4>产量</h4>
-                            <h3 class="nasa">14561</h3>
+                            <p>湿度</p>
+                            <h6 class="nasa">42<span>%</span></h6>
                         </div>
                         <div class="layui-col-sm4">
-                            <h4>稼动率</h4>
-                            <h3 class="nasa">92%</h3>
+                            <p>压力</p>
+                            <h6 class="nasa">274<span>kpa</span></h6>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
-            <div class="layui-col-sm8">
-                <div class="layui-card">
-                    <div class="layui-card-body">
-                        <div class="layui-col-sm3">
-                            <div class="layui-card">
-                                <i class="iconfont bg-color-1">&#xec20;</i>
-                                <h3>32<span>℃</span></h3>
-                                <h4>当前温度</h4>
-                            </div>
+            <div class="layui-col-sm3">
+                <a class="layui-card">
+                    <div class="above">
+                        <div class="layui-col-xs5 run">
+                            <span></span>
+                            <h4>正常</h4>
                         </div>
-                        <div class="layui-col-sm3">
-                            <div class="layui-card">
-                                <i class="iconfont bg-color-2">&#xe90e;</i>
-                                <h3>212.2<span>kPa</span></h3>
-                                <h4>当前压力</h4>
-                            </div>
-                        </div>
-                        <div class="layui-col-sm3">
-                            <div class="layui-card">
-                                <i class="iconfont bg-color-3">&#xea81;</i>
-                                <h3>42<span>%</span></h3>
-                                <h4>当前湿度</h4>
-                            </div>
-                        </div>
-                        <div class="layui-col-sm3">
-                            <div class="layui-card">
-                                <i class="iconfont bg-color-4">&#xe90e;</i>
-                                <h3>32<span>℃</span></h3>
-                                <h4>当前温度</h4>
-                            </div>
+                        <div class="layui-col-xs7">
+                            <label>设备名称</label>
+                            <h5>HAMA</h5>
+                            <label>设备登录号</label>
+                            <h6>GLYG00001</h6>
                         </div>
                     </div>
-                </div>
+                    <div class="below">
+                        <div class="layui-col-sm4">
+                            <p>温度</p>
+                            <h6 class="nasa">27<span>℃</span></h6>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <p>湿度</p>
+                            <h6 class="nasa">42<span>%</span></h6>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <p>压力</p>
+                            <h6 class="nasa">274<span>kpa</span></h6>
+                        </div>
+                    </div>
+                </a>
             </div>
-        </div>
-        <div class="layui-row">
-            <div class="layui-col-sm6">
-                <div class="layui-card">
-                    <div class="layui-card-header">卡片面板</div>
-                    <div class="layui-card-body" id="chart1">
-
+            <div class="layui-col-sm3">
+                <a class="layui-card">
+                    <div class="above">
+                        <div class="layui-col-xs5 run">
+                            <span></span>
+                            <h4>正常</h4>
+                        </div>
+                        <div class="layui-col-xs7">
+                            <label>设备名称</label>
+                            <h5>HAMA</h5>
+                            <label>设备登录号</label>
+                            <h6>GLYG00001</h6>
+                        </div>
                     </div>
-                </div>
+                    <div class="below">
+                        <div class="layui-col-sm4">
+                            <p>温度</p>
+                            <h6 class="nasa">27<span>℃</span></h6>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <p>湿度</p>
+                            <h6 class="nasa">42<span>%</span></h6>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <p>压力</p>
+                            <h6 class="nasa">274<span>kpa</span></h6>
+                        </div>
+                    </div>
+                </a>
             </div>
-            <div class="layui-col-sm6">
-                <div class="layui-card">
-                    <div class="layui-card-header">卡片面板</div>
-                    <div class="layui-card-body">
-                        卡片式面板面板通常用于非白色背景色的主体内<br>
-                        从而映衬出边框投影
+            <div class="layui-col-sm3">
+                <a class="layui-card">
+                    <div class="above">
+                        <div class="layui-col-xs5 run">
+                            <span></span>
+                            <h4>正常</h4>
+                        </div>
+                        <div class="layui-col-xs7">
+                            <label>设备名称</label>
+                            <h5>HAMA</h5>
+                            <label>设备登录号</label>
+                            <h6>GLYG00001</h6>
+                        </div>
                     </div>
-                </div>
+                    <div class="below">
+                        <div class="layui-col-sm4">
+                            <p>温度</p>
+                            <h6 class="nasa">27<span>℃</span></h6>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <p>湿度</p>
+                            <h6 class="nasa">42<span>%</span></h6>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <p>压力</p>
+                            <h6 class="nasa">274<span>kpa</span></h6>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="layui-col-sm3">
+                <a class="layui-card">
+                    <div class="above">
+                        <div class="layui-col-xs5 stp">
+                            <span></span>
+                            <h4>停止</h4>
+                        </div>
+                        <div class="layui-col-xs7">
+                            <label>设备名称</label>
+                            <h5>HAMA</h5>
+                            <label>设备登录号</label>
+                            <h6>GLYG00001</h6>
+                        </div>
+                    </div>
+                    <div class="below">
+                        <div class="layui-col-sm4">
+                            <p>温度</p>
+                            <h6 class="nasa">27<span>℃</span></h6>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <p>湿度</p>
+                            <h6 class="nasa">42<span>%</span></h6>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <p>压力</p>
+                            <h6 class="nasa">274<span>kpa</span></h6>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="layui-col-sm3">
+                <a class="layui-card">
+                    <div class="above">
+                        <div class="layui-col-xs5 stp">
+                            <span></span>
+                            <h4>停止</h4>
+                        </div>
+                        <div class="layui-col-xs7">
+                            <label>设备名称</label>
+                            <h5>HAMA</h5>
+                            <label>设备登录号</label>
+                            <h6>GLYG00001</h6>
+                        </div>
+                    </div>
+                    <div class="below">
+                        <div class="layui-col-sm4">
+                            <p>温度</p>
+                            <h6 class="nasa">27<span>℃</span></h6>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <p>湿度</p>
+                            <h6 class="nasa">42<span>%</span></h6>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <p>压力</p>
+                            <h6 class="nasa">274<span>kpa</span></h6>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="layui-col-sm3">
+                <a class="layui-card">
+                    <div class="above">
+                        <div class="layui-col-xs5 stp">
+                            <span></span>
+                            <h4>停止</h4>
+                        </div>
+                        <div class="layui-col-xs7">
+                            <label>设备名称</label>
+                            <h5>HAMA</h5>
+                            <label>设备登录号</label>
+                            <h6>GLYG00001</h6>
+                        </div>
+                    </div>
+                    <div class="below">
+                        <div class="layui-col-sm4">
+                            <p>温度</p>
+                            <h6 class="nasa">27<span>℃</span></h6>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <p>湿度</p>
+                            <h6 class="nasa">42<span>%</span></h6>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <p>压力</p>
+                            <h6 class="nasa">274<span>kpa</span></h6>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="layui-col-sm3">
+                <a class="layui-card">
+                    <div class="above">
+                        <div class="layui-col-xs5 stp">
+                            <span></span>
+                            <h4>停止</h4>
+                        </div>
+                        <div class="layui-col-xs7">
+                            <label>设备名称</label>
+                            <h5>HAMA</h5>
+                            <label>设备登录号</label>
+                            <h6>GLYG00001</h6>
+                        </div>
+                    </div>
+                    <div class="below">
+                        <div class="layui-col-sm4">
+                            <p>温度</p>
+                            <h6 class="nasa">27<span>℃</span></h6>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <p>湿度</p>
+                            <h6 class="nasa">42<span>%</span></h6>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <p>压力</p>
+                            <h6 class="nasa">274<span>kpa</span></h6>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </article>
 </main>
 <footer></footer>
-<script src="./static/vendors/jquery/jquery.min.js"></script>
-<script src="./static/vendors/layui/layui.js"></script>
-<script src="./static/vendors/echarts/echarts.min.js"></script>
+<!--必加载脚本-->
+    <script src="./static/vendors/jquery/jquery.min.js"></script>
+    <script src="./static/vendors/vue/vue.js"></script>
+    <!--layui 组件-->
+    <script src="./static/vendors/layui/layui.js"></script>
+    <!--echarts 图表组件-->
+    <script src="./static/vendors/echarts/echarts.min.js"></script>
+    <!--滚动条美化组件-->
+    <script src="./static/vendors/niceScroll/jquery.nicescroll.min.js"></script>
+    <!--通用脚本-->
+    <script src="static/js/common.js"></script>
+<!--必加载脚本 END-->
 <script>
     //JavaScript代码区域
     layui.use('element', function () {
         var element = layui.element;
     });
-    layui.config({
+    /*layui.config({
         debug: false //用于开启调试模式，默认false，如果设为true，则JS模块的节点会保留在页面
-    });
+    });*/
     $(function ($) {
-        var data={
-            'day01':[
-                [-83,-175,2],
-                [-234,51,8],
-                [49,-28,2],
-                [-17,-165,2],
-                [87,-60,1],
-                [-49,-170,2],
-                [61,31,12],
-                [-14,-150,2],
-                [-27,-136,4],
-                [-210,-119,8],
-                [67,69,5],
-                [210,125,1]
-            ],
-            'day02':[
-                [-63,136,2],
-                [-60,-123,4],
-                [25,-231,5],
-                [-16,165,2],
-                [-12,-60,2],
-                [152,123,1],
-                [-169,125,25],
-                [-125,23,11],
-                [125,116,25],
-                [15,-23,36],
-                [-26,-25,11],
-                [48,98,12]
-            ]
-        };
-        var chart1=echarts.init($('#chart1')[0]);
-        var option1={
-            color:['#36b5df','#659e33', '#ff9d0b', '#e25151'],
-            title:{ //标题组件，包含主标题和副标题。
-                text:'极坐标散点图(A1 bottom camera)',
-                textStyle:{
-                    color:'#cccccc',
-                    fontSize:'16px'
-                }
-            },
-            grid: {
-                left: '3%',
-                right: '10%',
-                bottom: '4%',
-                containLabel: true
-            },
-            tooltip: {
-                trigger: 'item',
-                showDelay: 0,
-                formatter: function(params) {
-                    return 'A1 bottom camera X[um]： '
-                        + params.value[0]
-                        + '<br/> '
-                        + 'A1 bottom camera Y[um]: '
-                        +params.value[1]
-                        +'<br/>' +
-                        '次数：' +
-                        params.value[2];
-                },
-                axisPointer: {
-                    show: true,
-                    type: 'cross',
-                    lineStyle: {
-                        type: 'dashed',
-                        width: 1
-                    }
-                }
-            },
-            xAxis: [{
-                type: 'value',
-                name:'数量',
-                scale: true,
-                min:-300,
-                max:300,
-                axisLabel: {
-                    formatter: '{value}'
-                },
-                nameTextStyle: {
-                    color: '#cccccc',
-                    fontSize: 14,
-                },
-                axisTick: {
-                    show: true,
-                },
-                axisLine: {
-                    lineStyle: {
-                        color: '#3259B8',
-                    },
-                    symbol:['none','arrow']
-                },
-                splitLine: {
-                    show: true,
-                    lineStyle: {
-                        type: 'dotted'
-                    }
-                }
-            }],
-            yAxis: [{
-                type: 'value',
-                name: '价格',
-                scale: true,
-                min:-300,
-                max:300,
-                axisLabel: {
-                    formatter: '{value}'
-                },
-                nameTextStyle: {
-                    color: '#3259B8',
-                    fontSize: 14
-                },
-                axisTick: {
-                    show: true,
-                },
-                axisLine: {
-                    lineStyle: {
-                        color: '#3259B8',
-                    },
-                    symbol:['none','arrow']
-                },
-                splitLine: {
-                    show: true,
-                    lineStyle: {
-                        type: 'dotted'
-                    }
-                }
-            }],
-            series: [{
-                type: 'scatter',
-                data: data.day01,
-                dimension: ['x', 'y','size'],
-                symbolSize: function (val) {
-                    return Math.max(val[2] / 10, 8);
-                }
-            },
-            {
-                type: 'scatter',
-                data: data.day02,
-                dimension: ['x', 'y','size'],
-                symbolSize: function (val) {
-                    return Math.max(val[2] / 2, 6);
-                }
-            }]
-        };
-        chart1.setOption(option1);
 
     })
-</script>
-<script>
-
 </script>
 </body>
 </html>

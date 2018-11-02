@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>数据可视化</title>
+    <link rel="stylesheet" href="static/vendors/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="static/css/common_style.css">
+    <style>
+        html {
+            width: 100%;
+            height: 100%;
+            min-width: 1200px;
+        }
+
+        body * {
+            box-sizing: border-box;
+        }
+
+        #chart1 {
+            height: 500px;
+            width: 500px;
+            margin: 0 auto;
+        }
+        #chart2 {
+            height: 400px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        #chart3 {
+            height: 400px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body class="dark layui-layout-body content-body">
+<!--layui-layout layui-layout-admin-->
+<header class="header">
+    <h1>HAMA(当前设备名称)<span>设备登录号:GLYG00001</span></h1>
+    <ul class="layui-nav layui-layout-right">
+        <li class="layui-nav-item">
+            <a class="other" href=""><span class="iconfont">&#xeb9d;</span>其他设备<span class="layui-badge">9</span></a>
+            <dl class="layui-nav-child">
+                <dd><a href="javascript:;">HAMA1</a></dd>
+                <dd><a href="javascript:;">HAMA2</a></dd>
+                <dd><a href="javascript:;">HAMA3</a></dd>
+                <dd><a href="javascript:;">HAMA4</a></dd>
+                <dd><a href="javascript:;">HAMA5</a></dd>
+                <dd><a href="javascript:;">HAMA6</a></dd>
+            </dl>
+        </li>
+        <li class="layui-nav-item">
+            <a href="">数据中心<span class="layui-badge-dot"></span></a>
+        </li>
+    </ul>
+</header>
+<main class="gdt">
+    <article class="layui-container">
+        <div class="layui-row now-charts">
+            <div class="layui-col-sm4">
+                <div class="layui-card">
+                    <div class="layui-card-body">
+                        <div class="layui-col-sm4">
+                            <h4>运行时间</h4>
+                            <h3 class="nasa">04:05:16</h3>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <h4>产量</h4>
+                            <h3 class="nasa">14561</h3>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <h4>稼动率</h4>
+                            <h3 class="nasa">92%</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="layui-col-sm8">
+                <div class="layui-card">
+                    <div class="layui-card-body">
+                        <div class="layui-col-sm3">
+                            <div class="layui-card">
+                                <i class="iconfont bg-color-1">&#xec20;</i>
+                                <h3>32<span>℃</span></h3>
+                                <h4>当前温度</h4>
+                            </div>
+                        </div>
+                        <div class="layui-col-sm3">
+                            <div class="layui-card">
+                                <i class="iconfont bg-color-2">&#xe90e;</i>
+                                <h3>212.2<span>kPa</span></h3>
+                                <h4>当前压力</h4>
+                            </div>
+                        </div>
+                        <div class="layui-col-sm3">
+                            <div class="layui-card">
+                                <i class="iconfont bg-color-3">&#xea81;</i>
+                                <h3>42<span>%</span></h3>
+                                <h4>当前湿度</h4>
+                            </div>
+                        </div>
+                        <div class="layui-col-sm3">
+                            <div class="layui-card">
+                                <i class="iconfont bg-color-4">&#xe90e;</i>
+                                <h3>32<span>℃</span></h3>
+                                <h4>当前温度</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-row">
+            <div class="layui-col-sm6">
+                <div class="layui-card">
+                    <div class="layui-card-header">A8 upper camera misregistration amount [um]</div>
+                    <div class="layui-card-body">
+                        <div id="chart1"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="layui-col-sm6">
+                <div class="layui-card">
+                    <div class="layui-card-header">卡片面板</div>
+                    <div class="layui-card-body">
+                        <div id="chart2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="layui-col-sm6">
+                <div class="layui-card">
+                    <div class="layui-card-header">卡片面板</div>
+                    <div class="layui-card-body">
+                        <div id="chart3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</main>
+<footer></footer>
+<script src="./static/vendors/jquery/jquery.min.js"></script>
+<script src="./static/vendors/layui/layui.js"></script>
+<script src="./static/vendors/echarts/echarts.min.js"></script>
+<script src="./static/vendors/echarts/ecStat.min.js"></script>
+<script src="static/js/my_echarts.js"></script>
+
+<script>
+    //JavaScript代码区域
+    layui.use('element', function () {
+        var element = layui.element;
+    });
+    layui.config({
+        debug: false //用于开启调试模式，默认false，如果设为true，则JS模块的节点会保留在页面
+    });
+
+    function RandomNumBoth(Min, Max) {
+        var Range = Max - Min;
+        var Rand = Math.random();
+        var num2 = parseInt(Rand * 1000);
+        var num = Min + Math.round(Rand * Range); //四舍五入
+        num = num2 % 2 === 0 ? num : num * -1;
+        return num;
+    }
+
+    function arrA() {
+        var dataA = [];
+        for (var i = 0; i < 1200; i++) {
+            dataA[i] = [];
+            dataA[i][0] = RandomNumBoth(0, 300);
+            dataA[i][1] = RandomNumBoth(0, 300);
+        }
+        return dataA;
+    }
+
+    $(function ($) {
+        var data1=arrA();
+        var chart1 = echarts.init($('#chart1')[0]);
+        var option1 = new Scatter(data1, 80, 80, ['#6595ff', '#36D1DC', '#6595ff'], [-300, 300],[-300,300], true);
+        chart1.setOption(option1);
+
+
+
+        var data3={
+            batch1:[
+                [0.067732, 3.176513],
+
+            ],
+            batch2:[
+                [0.067732, 3.176513],
+                [0.42781, 3.816464],
+                [0.995731, 4.550095],
+                [0.738336, 4.256571],
+                [0.981083, 4.560815],
+                [0.526171, 3.929515],
+                [0.378887, 3.52617],
+                [0.033859, 3.156393],
+                [0.132791, 3.110301],
+                [0.138306, 3.149813],
+                [0.247809, 3.476346],
+                [0.64827, 4.119688],
+                [0.731209, 4.282233],
+                [0.236833, 3.486582],
+                [0.969788, 4.655492],
+                [0.607492, 3.965162],
+                [0.358622, 3.5149],
+                [0.147846, 3.125947],
+                [0.358622, 3.5149],
+                [0.147846, 3.125947],
+                [0.358622, 3.5149],
+                [0.147846, 3.125947],
+                [0.147846, 3.125947]
+            ],
+            batch3:[
+                [0.067732, 3.176513],
+                [0.42781, 3.816464],
+                [0.995731, 4.550095],
+                [0.738336, 4.256571],
+                [0.981083, 4.560815],
+                [0.526171, 3.929515],
+                [0.378887, 3.52617],
+                [0.033859, 3.156393],
+                [0.132791, 3.110301],
+                [0.138306, 3.149813],
+                [0.247809, 3.476346],
+                [0.64827, 4.119688],
+                [0.731209, 4.282233],
+                [0.236833, 3.486582],
+                [0.969788, 4.655492],
+                [0.607492, 3.965162],
+                [0.358622, 3.5149],
+                [0.147846, 3.125947],
+                [0.358622, 3.5149],
+                [0.147846, 3.125947],
+                [0.358622, 3.5149],
+                [0.147846, 3.125947],
+                [0.147846, 3.125947]
+            ]
+        };
+
+        var dataLine = {
+            data1:[
+                [-8.2514,-3.24546158],
+                [-7.2514,-3.090232306],
+                [-6.23158,-2.878161739],
+                [-5.203995,-2.326347874],
+                [-4.310701,-2.053748911],
+                [-3.986633,-1.644853627],
+                [-2.118632,-1.281551566],
+                [-1.675741,-0.67448975],
+                [-0.925529,-0.39214],
+                [0.925529,0.05451,],
+                [1.43132,0.67448975,],
+                [2.057686,1.281551566],
+                [3.485525,1.644853627],
+                [4.785225,2.053748911],
+                [5.800949,2.226347874],
+                [6.739574,2.83],
+                [7.829146,2.96],
+                [8.218145,3],
+            ],
+            data2:[
+                [-16.2514,-3.24546158],
+                [-14.2514,-3.090232306],
+                [-13.23158,-2.878161739],
+                [-13.203995,-2.326347874],
+                [-12.310701,-2.053748911],
+                [-10.986633,-1.644853627],
+                [-9.3568632,-1.281551566],
+                [-9.118632,-1.281551566],
+                [-8.544122,-1.1234343],
+                [-7.458632,-1.0551748],
+                [-6.151745,-0.9554141],
+                [-4.151745,-0.7525368],
+                [-3.151745,-0.68522512],
+                [-1.675741,-0.47448975],
+                [-0.225529,-0.01421222],
+                [0.7522852,0.0236586,],
+                [2.2156112,0.67448975,],
+                [4.057686,1.281551566],
+                [5.485525,1.644853627],
+                [8.785225,2.053748911],
+                [10.800949,2.226347874],
+                [11.739574,2.83],
+                [12.829146,2.96],
+                [13.218145,3]
+            ],
+            data3:[
+                [-20.2514,-3.24546158],
+                [-19.2514,-3.090232306],
+                [-19.23158,-2.878161739],
+                [-17.203995,-2.326347874],
+                [-14.310701,-2.053748911],
+                [-13.986633,-1.644853627],
+                [-12.3568632,-1.281551566],
+                [-9.895525,-1.281551566],
+                [-9.544122,-1.1234343],
+                [-8.458632,-1.0551748],
+                [-7.151745,-0.9554141],
+                [-4.415615,-0.7525368],
+                [-2.151745,-0.68522512],
+                [-1.675741,-0.47448975],
+                [4.7522852,0.0236586,],
+                [5.2156112,0.67448975,],
+                [6.057686,1.281551566],
+                [7.485525,1.644853627],
+                [8.785225,2.053748911],
+                [9.739574,2.83],
+                [11.829146,2.96],
+                [12.218145,3]
+            ],
+            data4:[
+                [-8.2514,-3.24546158],
+                [-7.2514,-3.090232306],
+                [-6.23158,-2.878161739],
+                [-5.203995,-2.326347874],
+                [-4.310701,-2.053748911],
+                [-3.986633,-1.644853627],
+                [-2.118632,-1.281551566],
+                [-1.675741,-0.67448975],
+                [-0.925529,-0.39214],
+                [0.925529,0.05451,],
+                [1.43132,0.67448975,],
+                [2.057686,1.281551566],
+                [3.485525,1.644853627],
+                [4.785225,2.053748911],
+                [5.800949,2.226347874],
+                [6.739574,2.83],
+                [7.829146,2.96],
+                [8.218145,3],
+            ]
+        };
+        var dataX1 = [{
+            yAxis: 3.719469532,
+            label: {
+                normal: {
+                    formatter: '99.99'
+                }
+            }
+        }, {
+            yAxis: 3.290479071,
+            label: {
+                normal: {
+                    formatter: '99.95'
+                }
+            }
+        }, {
+            yAxis: 3.090244718,
+            label: {
+                normal: {
+                    formatter: '99.9'
+                }
+            }
+        }, {
+            yAxis: 2.878150553,
+            label: {
+                normal: {
+                    formatter: '99.8'
+                }
+            }
+        }, {
+            yAxis: 2.575834515,
+            label: {
+                normal: {
+                    formatter: '99.5'
+                }
+            }
+        }, {
+            yAxis: 2.326341928,
+            label: {
+                normal: {
+                    formatter: '99'
+                }
+            }
+        }, {
+            yAxis: 2.053748176,
+            label: {
+                normal: {
+                    formatter: '98'
+                }
+            }
+        }, {
+            yAxis: 1.644853,
+            label: {
+                normal: {
+                    formatter: '95'
+                }
+            }
+        }, {
+            yAxis: 1.281550794,
+            label: {
+                normal: {
+                    formatter: '90'
+                }
+            }
+        }, {
+            yAxis: 0.841621386,
+            label: {
+                normal: {
+                    formatter: '80'
+                }
+            }
+        }, {
+            yAxis: 0.524401003,
+            label: {
+                normal: {
+                    formatter: '70'
+                }
+            }
+        }, {
+            yAxis: 0.25334657,
+            label: {
+                normal: {
+                    formatter: '60'
+                }
+            }
+        }, {
+            yAxis: 0,
+            label: {
+                normal: {
+                    formatter: '50'
+                }
+            }
+        }, {
+            yAxis: -0.25334657,
+            label: {
+                normal: {
+                    formatter: '40'
+                }
+            }
+        }, {
+            yAxis: -0.524401003,
+            label: {
+                normal: {
+                    formatter: '30'
+                }
+            }
+        }, {
+            yAxis: -0.841621386,
+            label: {
+                normal: {
+                    formatter: '20'
+                }
+            }
+        }, {
+            yAxis: -1.281550794,
+            label: {
+                normal: {
+                    formatter: '10'
+                }
+            }
+        }, {
+            yAxis: -1.644853,
+            label: {
+                normal: {
+                    formatter: '5'
+                }
+            }
+        }, {
+            yAxis: -2.053748176,
+            label: {
+                normal: {
+                    formatter: '2'
+                }
+            }
+
+
+        }, {
+            yAxis: -2.326341928,
+            label: {
+                normal: {
+                    formatter: '1'
+                }
+            }
+
+
+        }, {
+            yAxis: -2.575834515,
+            label: {
+                normal: {
+                    formatter: '0.5'
+                }
+            }
+        }, {
+            yAxis: -2.878150553,
+            label: {
+                normal: {
+                    formatter: '0.2'
+                }
+            }
+        }, {
+            yAxis: -3.090244718,
+            label: {
+                normal: {
+                    formatter: '0.1'
+                }
+            }
+        }, {
+            yAxis: -3.290479071,
+            label: {
+                normal: {
+                    formatter: '0.05'
+                }
+            }
+        }, {
+            yAxis: -3.719469532,
+            label: {
+                normal: {
+                    formatter: '0.01'
+                }
+            }
+        }];
+
+        var chart3 = echarts.init($("#chart3")[0]);
+        var option3 = {
+            color:['#36b5df', '#659e33', '#ff9d0b', '#e25151'],
+            grid:{
+                show:true,
+                containLabel: false,
+                width: '90%',
+                height: '90%',
+                left:40,
+                top: 20,
+                borderWidth:1,
+                backgroundColor:'rgba(0,0,0,0.3)'
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'cross'
+                }
+            },
+            xAxis: {
+                type: 'value',
+                min:-50,
+                max:50,
+                splitLine: {
+                    lineStyle: {
+                        type: 'dotted',
+                        color: '#384154'
+                    }
+                },
+                axisLine: {
+                    lineStyle: {
+                        type: 'dashed',
+                        color: '#3259B8'
+                    },
+                    symbol: ['none', 'none']
+                }
+            },
+            dataZoom: [//给x轴设置滚动条
+                {
+                    type: 'slider',
+                    show: false,
+                    xAxisIndex: [0],
+                    filterMode: 'filter',
+                }, {
+                    type: 'inside',
+                    show: true,
+                    xAxisIndex: [0],
+                },{
+                    type: 'slider',
+                    show: false,
+                    yAxisIndex: [0],
+                    filterMode: 'filter',
+                },{
+                    type: 'inside',
+                    show: true,
+                    yAxisIndex: [0],
+                }
+            ],
+            legend:{
+                show:true
+            },
+            yAxis: {
+                type: 'value',
+                min: -3.5,
+                max:3.5,
+                splitLine: {
+                    show:false
+                },
+                axisLine: {
+                    type: 'dotted',
+                    lineStyle: {
+                        type: 'dotted',
+                        color: '#3259B8',
+                    },
+                    symbol: ['none', 'none']
+                },
+                axisLabel: { //轴标签
+                    show: false //不显示
+                },
+                axisTick: { //轴刻度
+                    show: false //不显示
+                }
+            },
+            series: [{
+                name: 't',
+                type: 'line',
+                markLine: {
+                    symbol: ['none', 'none'],
+                    silent: true,
+                    label: {
+                        normal: {
+                            position: "start"
+                        }
+                    },
+                    lineStyle:{
+                        color:'#384154'
+                    },
+                    data: dataX1
+                }
+            },{
+                name: '测试1',
+                type: 'line',
+                symbol:'triangle',
+                symbolSize:6,
+                itemStyle:{
+                  color:'#36b5df',
+                },
+                lineStyle:{
+                    normal:{
+                        color:'#36b5df',
+                        width:2,
+                        type:'dotted'
+                    }
+                },
+                data: dataLine.data1
+            },{
+                name: '测试2',
+                type: 'line',
+                symbol:'diamond',
+                symbolSize:6,
+                itemStyle:{
+                    color:'#659e33',
+                },
+                lineStyle:{
+                    normal:{
+                        color:'#659e33',
+                        width:2,
+                        type:'dotted'
+                    }
+                },
+                data: dataLine.data2
+            },{
+                name: '测试3',
+                type: 'line',
+                symbol:'roundRect',
+                symbolSize:6,
+                itemStyle:{
+                    color:'#ff9d0b',
+                },
+                lineStyle:{
+                    normal:{
+                        color:'#ff9d0b',
+                        width:2,
+                        type:'dotted'
+                    }
+                },
+                data: dataLine.data3
+            },{
+                name: '测试4',
+                type: 'line',
+                symbol:'arrow',
+                symbolSize:6,
+                itemStyle:{
+                    color:'#e25151',
+                },
+                lineStyle:{
+                    normal:{
+                        color:'#e25151',
+                        width:2,
+                        type:'dotted'
+                    }
+                },
+                data: dataLine.data4
+            }]
+        };
+        chart3.setOption(option3);
+
+    })
+</script>
+<script>
+
+</script>
+</body>
+</html>

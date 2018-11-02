@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12ad933c-3c17-425c-9b22-67612a7562a4" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/data-1487209466925-BJQZVKGYx.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/font/nasa-display.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendors/echarts/ecStat.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendors/echarts/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendors/echarts/echarts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAMA_details_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HAMA_details_page_02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detailsPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/FAT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/RUN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/STP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/HAMA_details_page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/my_echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/niceScroll/jquery.nicescroll.iframehelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/niceScroll/jquery.nicescroll.iframehelper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/niceScroll/jquery.nicescroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/niceScroll/jquery.nicescroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/vendors/niceScroll/zoomico.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-1487209466925-BJQZVKGYx.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/common_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/vendors/echarts/echarts.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendors/echarts/echarts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,27 +33,33 @@
     <session id="756998771">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="6" />
-          <entry key="html" value="4" />
-          <entry key="js" value="5" />
-          <entry key="json" value="4" />
+          <entry key="css" value="15" />
+          <entry key="html" value="14" />
+          <entry key="js" value="21" />
+          <entry key="json" value="6" />
+          <entry key="md" value="1" />
           <entry key="svg" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="6" />
-          <entry key="HTML" value="4" />
-          <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="5" />
+          <entry key="CSS" value="15" />
+          <entry key="HTML" value="14" />
+          <entry key="JSON" value="6" />
+          <entry key="JavaScript" value="21" />
+          <entry key="Markdown" value="1" />
           <entry key="SVG" value="1" />
         </counts>
       </usages-collector>
@@ -50,9 +67,11 @@
       <usages-collector id="statistics.php.rename.constructor" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1679" />
-          <entry key="HTML" value="1531" />
-          <entry key="JSON" value="1" />
+          <entry key="CSS" value="3653" />
+          <entry key="HTML" value="6126" />
+          <entry key="JSON" value="98" />
+          <entry key="JavaScript" value="2916" />
+          <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -61,9 +80,11 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1679" />
-          <entry key="html" value="1531" />
-          <entry key="json" value="1" />
+          <entry key="css" value="3653" />
+          <entry key="html" value="6126" />
+          <entry key="js" value="2916" />
+          <entry key="json" value="98" />
+          <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.command.options" />
@@ -72,38 +93,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/HAMA_details_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="246" column="22" lean-forward="true" selection-start-line="246" selection-start-column="22" selection-end-line="246" selection-end-column="22" />
+            <state relative-caret-position="279">
+              <caret line="204" column="17" selection-start-line="204" selection-start-column="17" selection-end-line="204" selection-end-column="17" />
               <folding>
-                <element signature="n#ul#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#5171#5510#0" />
-                <element signature="e#5530#5867#0" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/vendors/echarts/ecStat.min.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-1487209466925-BJQZVKGYx.json">
+        <entry file="file://$PROJECT_DIR$/static/css/common_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1459">
-              <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+            <state relative-caret-position="27">
+              <caret line="361" column="35" selection-start-line="361" selection-start-column="35" selection-end-line="361" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/style.css">
+        <entry file="file://$PROJECT_DIR$/static/js/HAMA_details_page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+            <state relative-caret-position="103">
+              <caret line="644" column="7" lean-forward="true" selection-start-line="644" selection-start-column="7" selection-end-line="644" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -114,6 +128,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -121,6 +136,13 @@
     <findStrings>
       <find>.now-charts .layui-card-body .layui-col-sm4</find>
       <find>.dark .layui-nav-child</find>
+      <find>.bg-color-1</find>
+      <find>.now-charts .layui-col-sm8 .layui-col-sm3 .layui-card .iconfont</find>
+      <find>.dark .header</find>
+      <find>.layui-layout-body .layui-card .layui-card-body</find>
+      <find>.row-2&gt;.layui-col-sm3 .layui-card-body.error-log</find>
+      <find>.layui-layout-body .layui-card .layui-card-header</find>
+      <find>shadow</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,10 +153,20 @@
       <list>
         <option value="$PROJECT_DIR$/static/assets/vendors/iconfont/demo.css" />
         <option value="$PROJECT_DIR$/static/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/data-1487209466925-BJQZVKGYx.json" />
+        <option value="$PROJECT_DIR$/散点图.json" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/static/js/echarts.js" />
+        <option value="$PROJECT_DIR$/test01.js" />
+        <option value="$PROJECT_DIR$/static/js/my_echarts.js" />
+        <option value="$PROJECT_DIR$/static/js/index.js" />
+        <option value="$USER_HOME$/Desktop/scrollreveal-master/README.md" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/static/js/common.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/static/js/HAMA_details_page.js" />
+        <option value="$PROJECT_DIR$/static/css/common_style.css" />
+        <option value="$PROJECT_DIR$/HAMA_details_page.html" />
       </list>
     </option>
   </component>
@@ -159,7 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,19 +207,25 @@
               <item name="data_visualization" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_visualization" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="vendors" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_visualization" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_visualization" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="vendors" type="462c0819:PsiDirectoryNode" />
-              <item name="echarts" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_visualization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_visualization" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,18 +234,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\www\data_visualization\static\vendors\echarts" />
-      <recent name="G:\www\data_visualization" />
-      <recent name="G:\www\data_visualization\static\vendors\font" />
-      <recent name="G:\www\data_visualization\static\vendors\vue" />
-      <recent name="G:\www\data_visualization\static\assets\vendors" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\www\data_visualization\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\www\data_visualization\static\img" />
+      <recent name="G:\www\data_visualization\static\vendors\niceScroll" />
+      <recent name="G:\www\data_visualization" />
+      <recent name="G:\www\data_visualization\static\vendors\echarts" />
+      <recent name="G:\www\data_visualization\static\vendors\font" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -234,27 +271,33 @@
       <option name="presentableId" value="Default" />
       <updated>1540445775356</updated>
       <workItem from="1540445776572" duration="8026000" />
-      <workItem from="1540511996044" duration="25285000" />
+      <workItem from="1540511996044" duration="27212000" />
+      <workItem from="1540771255488" duration="25020000" />
+      <workItem from="1540803658163" duration="176000" />
+      <workItem from="1540857960263" duration="33278000" />
+      <workItem from="1540944278731" duration="26145000" />
+      <workItem from="1541030641005" duration="21005000" />
+      <workItem from="1541116772042" duration="969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33311000" />
+    <option name="totallyTimeSpent" value="141831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16187595" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21558245" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32840723" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32840723" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -279,15 +322,6 @@
     <entry file="file://$PROJECT_DIR$/static/vendors/vue/vue.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/vendors/vue/vue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273166">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/vendors/echarts/echarts.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -308,16 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
-          <folding>
-            <element signature="e#3321#3343#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/vendors/layui/layui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -328,28 +352,86 @@
     <entry file="file://$PROJECT_DIR$/static/vendors/echarts/ecStat.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-1487209466925-BJQZVKGYx.json">
+    <entry file="file://$PROJECT_DIR$/data-1487209466925-BJQZVKGYx.json" />
+    <entry file="file://$PROJECT_DIR$/static/vendors/vue/vue.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test01.js" />
+    <entry file="file://$PROJECT_DIR$/test.html" />
+    <entry file="file://$PROJECT_DIR$/detailsPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1459">
-          <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        <state relative-caret-position="245">
+          <caret line="178" column="2" lean-forward="true" selection-start-line="178" selection-start-column="2" selection-end-line="181" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/static/js/my_echarts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        <state>
+          <caret selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/散点图.json" />
+    <entry file="file://$USER_HOME$/Desktop/scrollreveal-master/README.md" />
+    <entry file="file://$PROJECT_DIR$/static/vendors/niceScroll/jquery.nicescroll.iframehelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/vendors/niceScroll/jquery.nicescroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HAMA_details_page_02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="246" column="22" lean-forward="true" selection-start-line="246" selection-start-column="22" selection-end-line="246" selection-end-column="22" />
+        <state relative-caret-position="3091">
+          <caret line="310" column="8" selection-start-line="310" selection-start-column="8" selection-end-line="310" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/HAMA_details_page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="644" column="7" lean-forward="true" selection-start-line="644" selection-start-column="7" selection-end-line="644" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/common_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="361" column="35" selection-start-line="361" selection-start-column="35" selection-end-line="361" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HAMA_details_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="204" column="17" selection-start-line="204" selection-start-column="17" selection-end-line="204" selection-end-column="17" />
           <folding>
-            <element signature="n#ul#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#5171#5510#0" />
-            <element signature="e#5530#5867#0" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#article#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
