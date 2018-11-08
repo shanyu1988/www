@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>数据可视化</title>
+    <link rel="stylesheet" href="static/vendors/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="static/css/common_style.css">
+    <style>
+        html {
+            width: 100%;
+            height: 100%;
+            min-width: 1200px;
+        }
+        body * {
+            box-sizing: border-box;
+        }
+        #meter1{
+            height: 240px;
+        }
+        #production{
+            height: 300px;
+        }
+    </style>
+</head>
+<body class="dark layui-layout-body content-body">
+<!--layui-layout layui-layout-admin-->
+<header class="header">
+    <a class="back-btn" href="./index.html">
+        <i class="iconfont">&#xec68;</i>
+    </a>
+    <h1>HAMA<span>设备登录号:GLYG00001</span></h1>
+    <ul class="layui-nav layui-layout-right">
+        <li class="layui-nav-item">
+            <a class="other" href=""><span class="iconfont">&#xeb9d;</span>其他设备<span class="layui-badge">9</span></a>
+            <dl class="layui-nav-child">
+                <dd><a href="javascript:;">HAMA1</a></dd>
+                <dd><a href="javascript:;">HAMA2</a></dd>
+                <dd><a href="javascript:;">HAMA3</a></dd>
+                <dd><a href="javascript:;">HAMA4</a></dd>
+                <dd><a href="javascript:;">HAMA5</a></dd>
+                <dd><a href="javascript:;">HAMA6</a></dd>
+            </dl>
+        </li>
+        <li class="layui-nav-item">
+            <a href="">数据中心<span class="layui-badge-dot"></span></a>
+        </li>
+    </ul>
+</header>
+<main class="gdt" id="app">
+    <article class="layui-container">
+        <div class="layui-row now-charts">
+            <div class="layui-col-sm4">
+                <div class="layui-card">
+                    <div class="layui-card-body">
+                        <div class="layui-col-sm4">
+                            <h4>运行时间</h4>
+                            <h3 class="nasa">04:05:16</h3>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <h4>产量</h4>
+                            <h3 class="nasa">14561</h3>
+                        </div>
+                        <div class="layui-col-sm4">
+                            <h4>稼动率</h4>
+                            <h3 class="nasa">92%</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="layui-col-sm8">
+                <div class="layui-card">
+                    <div class="layui-card-body">
+                        <div class="layui-col-sm3">
+                            <div class="layui-card">
+                                <i class="iconfont bg-color-1">&#xec20;</i>
+                                <h3>32<span>℃</span></h3>
+                                <h4>当前温度</h4>
+                            </div>
+                        </div>
+                        <div class="layui-col-sm3">
+                            <div class="layui-card">
+                                <i class="iconfont bg-color-2">&#xe90e;</i>
+                                <h3>212.2<span>kPa</span></h3>
+                                <h4>当前压力</h4>
+                            </div>
+                        </div>
+                        <div class="layui-col-sm3">
+                            <div class="layui-card">
+                                <i class="iconfont bg-color-3">&#xea81;</i>
+                                <h3>42<span>%</span></h3>
+                                <h4>当前湿度</h4>
+                            </div>
+                        </div>
+                        <div class="layui-col-sm3">
+                            <div class="layui-card">
+                                <div id="rhythm">
+                                    <div class="mask" style="animation-duration:2.12s;"></div>
+                                    <i class="iconfont">&#xec2f;</i>
+                                </div>
+                                <h3>2.12<span>S/PCS</span></h3>
+                                <h4>节拍时间</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-row">
+            <div class="layui-col-sm3">
+                <div class="layui-card">
+                    <div class="layui-card-header">产出<a class="history-btn" id="completion"><i class="iconfont">&#xe95c;</i></a></div>
+                    <div class="layui-card-body produce">
+                        <h3><i class="iconfont">&#xec35;</i> 计划产出：25368</h3>
+                        <div id="meter1"></div>
+                        <h4>完成率：96%</h4>
+                    </div>c
+                </div>
+            </div>
+            <div class="layui-col-sm9">
+                <div class="layui-card">
+                    <div class="layui-card-header">配对（批次）良品率</div>
+                    <div class="layui-card-body" id="production">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-row row-2">
+            <div class="layui-col-sm3">
+                <div class="layui-card">
+                    <div class="layui-card-header">良品数量</div>
+                    <div class="layui-card-body" id="goodProduct">
+                    </div>
+                </div>
+            </div>
+            <div class="layui-col-sm3">
+                <div class="layui-card">
+                    <div class="layui-card-header">不良原因</div>
+                    <div class="layui-card-body gdt bad-cause" >
+                        <table class="layui-table" border="0">
+                            <colgroup>
+                                <col width="80%">
+                                <col>
+                            </colgroup>
+                            <tbody>
+                            <tr>
+                                <td>画像1错误外观1-2NG</td>
+                                <td>70个</td>
+                            </tr>
+                            <tr>
+                                <td>画像1错误外观1-1NG</td>
+                                <td>69个</td>
+                            </tr>
+                            <tr>
+                                <td>加压1-2高度 超下限</td>
+                                <td>56个</td>
+                            </tr>
+                            <tr>
+                                <td>画像2错误外观2-2NG</td>
+                                <td>36个</td>
+                            </tr>
+                            <tr>
+                                <td>加压1-1高度 超下限</td>
+                                <td>27个</td>
+                            </tr>
+                            <tr>
+                                <td>画像2错误外观2-1NG</td>
+                                <td>25个</td>
+                            </tr>
+                            <tr>
+                                <td>加压1-2高度 超上限</td>
+                                <td>24个</td>
+                            </tr>
+                            <tr>
+                                <td>加压1-1高度 超上限</td>
+                                <td>21个</td>
+                            </tr>
+                            <tr>
+                                <td>到假硬化的时间过长</td>
+                                <td>4个</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="layui-col-sm3">
+                <div class="layui-card">
+                    <div class="layui-card-header">运行时间</div>
+                    <div class="layui-card-body" id="runningTime">
+                    </div>
+                </div>
+            </div>
+
+            <div class="layui-col-sm3">
+                <div class="layui-card">
+                    <div class="layui-card-header">错误日志</div>
+                    <div class="layui-card-body error-log gdt">
+                        <p><i>2018-10-31  15:06</i><span>F80：</span>料仓更换首层检测有料盘（F80）</p>
+                        <p><i>2018-10-31  15:06</i><span>F80：</span>料仓更换首层检测有料盘（F80）</p>
+                        <p><i>2018-10-31  15:06</i><span>F80：</span>料仓更换首层检测有料盘（F80）</p>
+                        <p><i>2018-10-31  15:06</i><span>F80：</span>料仓更换首层检测有料盘（F80）</p>
+                        <p><i>2018-10-31  15:06</i><span>F80：</span>料仓更换首层检测有料盘（F80）</p>
+                        <p><i>2018-10-31  15:06</i><span>F80：</span>料仓更换首层检测有料盘（F80）</p>
+                        <p><i>2018-10-31  15:06</i><span>F80：</span>料仓更换首层检测有料盘（F80）</p>
+                        <p><i>2018-10-31  15:06</i><span>F80：</span>料仓更换首层检测有料盘（F80）</p>
+                        <p><i>2018-10-31  15:06</i><span>F80：</span>料仓更换首层检测有料盘（F80）</p>
+                        <p><i>2018-10-31  15:06</i><span>F80：</span>料仓更换首层检测有料盘（F80）</p>
+                        <p><i>2018-10-31  15:06</i><span>F80：</span>料仓更换首层检测有料盘（F80）</p>
+                        <p><i>2018-10-31  15:06</i><span>F80：</span>料仓更换首层检测有料盘（F80）</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-row row-3">
+            <div class="layui-col-sm12">
+                <div class="layui-card">
+                    <div class="layui-card-header">A1下画像 Top 50</div>
+                    <div class="layui-card-body">
+                        <div class="layui-col-sm3"></div>
+                        <div class="layui-col-sm3"></div>
+                        <div class="layui-col-sm3"></div>
+                        <div class="layui-col-sm3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</main>
+<footer></footer>
+<!--必加载脚本-->
+    <script src="./static/vendors/jquery/jquery.min.js"></script>
+    <script src="./static/vendors/vue/vue.js"></script>
+    <!--layui 组件-->
+    <script src="./static/vendors/layui/layui.js"></script>
+    <!--echarts 图表组件-->
+    <script src="./static/vendors/echarts/echarts.min.js"></script>
+    <!--滚动条美化组件-->
+    <script src="./static/vendors/niceScroll/jquery.nicescroll.min.js"></script>
+    <!--通用脚本-->
+    <script src="static/js/common.js"></script>
+<!--必加载脚本 END-->
+
+<script src="static/js/HAMA_details_page.js"></script>
+<script>
+    //JavaScript代码区域
+    layui.use(['element','layer'], function () {
+        var element = layui.element;
+        var layer = layui.layer;
+
+
+        /*var header = new Vue({
+            el: '#header',
+            data: {
+                sbdlh:['GLYG00001',9]
+            }
+        });*/
+
+    });
+
+
+</script>
+</body>
+</html>

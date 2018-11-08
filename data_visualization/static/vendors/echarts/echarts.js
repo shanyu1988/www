@@ -21333,7 +21333,7 @@ var echartsAPIList = [
     'on', 'off', 'getDataURL', 'getConnectedDataURL', 'getModel', 'getOption',
     'getViewOfComponentModel', 'getViewOfSeriesModel'
 ];
-// And `getCoordinateSystems` and `getComponentByElement` will be injected in echarts.js
+// And `getCoordinateSystems` and `getComponentByElement` will be injected in my_echarts.js
 
 function ExtensionAPI(chartInstance) {
     each$1(echartsAPIList, function (name) {
@@ -93414,4 +93414,4 @@ exports.Axis = Axis;
 exports.env = env$1;
 
 })));
-//# sourceMappingURL=echarts.js.map
+//# sourceMappingURL=my_echarts.js.map
